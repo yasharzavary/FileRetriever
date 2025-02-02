@@ -10,6 +10,10 @@ class Preprocess:
 
 
     def pre_process(self):
+        """
+            this will run in the start of the app and control all parts of the preprocess
+        :return: None
+        """
         if self.__spec_loc == 'all':
             starting_path = 'C:\\\\' if os.name == 'nt' else '/'  # start path of the PC depend on operation system
         else:
