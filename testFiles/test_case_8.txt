@@ -1,0 +1,1 @@
+Quantum computing leverages the principles of quantum mechanics to perform calculations exponentially faster than classical computers. Researchers are exploring applications in cryptography, material science, and optimization problems.
