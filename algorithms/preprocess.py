@@ -2,8 +2,8 @@
 created by: yashar zavary rezaie
 """
 import os
-from langdetect import detect, DetectorFactory, LangDetectException
-from fileManager import FileManager
+from langdetect import detect
+from algorithms.fileManager import FileManager
 
 class Preprocess:
     def __init__(self, specific_location: str = None) -> None:

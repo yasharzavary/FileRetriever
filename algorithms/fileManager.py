@@ -28,7 +28,7 @@ class FileManager:
             'tokens': self.__binaryDict
         }
         # open a file and dump final dict
-        with open('binary_dict.json', 'w') as outfile:
+        with open('../data/binary_dict.json', 'w') as outfile:
             json.dump(final_dict, outfile, indent=4)
 
 
