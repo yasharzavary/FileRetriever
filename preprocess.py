@@ -1,8 +1,9 @@
 """
-
+created by: yashar zavary rezaie
 """
 import os
 from langdetect import detect, DetectorFactory, LangDetectException
+from fileManager import FileManager
 
 class Preprocess:
     def __init__(self, specific_location: str = None) -> None:
@@ -21,7 +22,7 @@ class Preprocess:
             starting_path = self.__spec_loc
         # read all files and filter language
         verified_files_address = self.__verify_language(self._file_reader(starting_path))
-        print(verified_files_address)
+        FileManager(verified_files_address).addFile()
 
     def _file_reader(self, start_director: str):
         """
