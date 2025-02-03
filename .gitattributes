@@ -1,0 +1,1 @@
+env/lib/python3.12/site-packages/PySide6/Qt/lib/QtWebEngineCore.framework/Versions/A/QtWebEngineCore filter=lfs diff=lfs merge=lfs -text
