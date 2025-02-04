@@ -1,14 +1,24 @@
 from PySide6.QtWidgets import (
-    QWidget, QVBoxLayout, QLineEdit, QPushButton, QListWidget, QLabel,
-    QHBoxLayout, QProgressBar, QMessageBox, QFileDialog
+    QWidget, QVBoxLayout, QLineEdit, QPushButton, QLabel,
+    QHBoxLayout, QProgressBar, QMessageBox, QFileDialog, QScrollArea, QFrame
 )
-from PySide6.QtCore import QThread, Signal, QTimer
+from PySide6.QtCore import QThread, Signal, QTimer, Qt, QSize
+
+from PySide6.QtGui import QIcon
+
 
 # Import the Preprocessor class from the external file
 from algorithms.preprocess import Preprocess  # Ensure preprocess_module.py is in the same directory
 
+import os
+import sys
+import subprocess
+
+# Import searcher
+from tools.searcher import Search
 
 preprocess = Preprocess('all')  # our preprocessor
+searcher = Search()
 class PreprocessThread(QThread):
     progress_updated = Signal(int)
     phase_finished = Signal(str)  # Notify when a phase completes
@@ -49,8 +59,16 @@ class SearchEngineUI(QWidget):
         search_layout.addWidget(self.search_input)
         search_layout.addWidget(self.search_button)
 
-        # Search Results Section
-        self.results_list = QListWidget()
+        # Scrollable Search Results Section
+        self.scroll_area = QScrollArea()
+        self.scroll_area.setWidgetResizable(True)  # Allows resizing
+
+        # Create a container for search results
+        self.results_container = QWidget()
+        self.results_layout = QVBoxLayout(self.results_container)
+        self.results_layout.setAlignment(Qt.AlignTop)  # Align results to the top
+        self.scroll_area.setWidget(self.results_container)
+
 
         # Future Updates Bar with Progress Bar
         update_layout = QVBoxLayout()
@@ -61,14 +79,19 @@ class SearchEngineUI(QWidget):
         update_layout.addWidget(self.progress_bar)
 
         # Adding widgets to layout
+
         main_layout.addLayout(search_layout)
-        main_layout.addWidget(self.results_list)
+        main_layout.addWidget(self.scroll_area)
         main_layout.addLayout(update_layout)
 
         self.setLayout(main_layout)
 
+        self.update()
+        self.repaint()
+
         # Flag to track preprocessing
         self.preprocess_done = False
+        self.readBinaryDict = True
 
         # Show preprocessing confirmation AFTER the window appears
         QTimer.singleShot(500, self.ask_preprocessing)  # Delay to show after UI loads
@@ -88,6 +111,11 @@ class SearchEngineUI(QWidget):
             self.ask_location()  # Ask for location before starting
         else:
             self.preprocess_done = False  # User declined preprocessing
+
+    def open_file_location(self, path):
+        """Open the file location in the system's file explorer."""
+        if os.name == 'nt':  # Windows
+            os.startfile(path)
 
     def ask_location(self):
         """
@@ -171,12 +199,65 @@ class SearchEngineUI(QWidget):
     def update_progress(self, value):
         self.progress_bar.setValue(value)
 
+    def clear_results(self):
+        # Clear previous results
+        for i in reversed(range(self.results_layout.count())):
+            widget = self.results_layout.itemAt(i).widget()
+            if widget is not None:
+                widget.deleteLater()  # Remove old results
+
+    def display_search_results(self, results: dict):
+        self.clear_results()  # Clear previous results
+
+        for file_name, file_path in results.items():  # Assume results contain (file name, file path) pairs
+            # Create a horizontal layout for each result
+            result_layout = QHBoxLayout()
+
+            # File name label
+            file_label = QLabel(file_name)
+            file_label.setWordWrap(True)
+            file_label.setStyleSheet("font-size: 14px; padding: 2px;")  # Optional styling
+
+            # Folder button with a small icon
+            folder_button = QPushButton()
+            folder_button.setIcon(QIcon("ui/media/icons/folder_icon.ico"))  # Replace with your folder icon file
+            folder_button.setIconSize(QSize(16, 16))  # Set the size of the folder icon
+            folder_button.setFixedSize(20, 20)  # Make the button smaller
+            folder_button.setToolTip("Open Folder")  # Tooltip for the button
+            folder_button.setStyleSheet("border: none;")  # Remove the border around the button
+            folder_button.clicked.connect(lambda checked, path=file_path: self.open_file_location(path))
+
+            # Add the file name and folder button to the result layout
+            result_layout.addWidget(file_label)
+            result_layout.addWidget(folder_button, alignment=Qt.AlignRight)  # Align the folder button to the right
+
+            # Create a QWidget to hold the layout and add it to the results container
+            result_widget = QWidget()
+            result_widget.setLayout(result_layout)
+            self.results_layout.addWidget(result_widget)
+
     def search_action(self):
-        """Check if preprocessing is done before allowing search."""
+        """
+            search manager
+        :return:
+        """
         if not self.preprocess_done:
             self.ask_preprocessing()  # Ask again if preprocessing is not started
-        else:
-            # Proceed with search logic (implement search function here)
-            self.results_list.addItem(f"Search results for: {self.search_input.text()}")
+            return
+        elif self.readBinaryDict:
+            # read binary dict if it doesn't
+            searcher.readBinaryDict()
+            self.readBinaryDict = False
+
+        self.clear_results()  # clear result of the results bar
+        query = self.search_input.text() # read query
+        results = searcher.search(query)  # Assume searcher returns a list of results
+
+        if not results:
+            self.show_error("No results found for this query.")
+            return
+
+        self.display_search_results(results)
+
 
 
