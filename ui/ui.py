@@ -139,6 +139,13 @@ class SearchEngineUI(QWidget):
                 if self.select_directory():  # Open file explorer for specific location:
                     break
 
+    def show_error(self, message):
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Critical)
+        msg.setWindowTitle("warning")
+        msg.setText(message)
+        msg.setStandardButtons(QMessageBox.Ok)
+        msg.exec()  # Show the message box
 
     def select_directory(self):
         directory = QFileDialog.getExistingDirectory(self, "Select Directory for Preprocessing")
