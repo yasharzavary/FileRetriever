@@ -12,8 +12,10 @@ class Search:
         with open('data/binary_dict.json') as file:
             self.__binaryDict = json.load(file)
 
+
+        self.__raw_files = self.__binaryDict['files']
         self.__tokens = self.__binaryDict['tokens']
-        self.__files = set(self.__binaryDict['files'])
+        self.__files = set(self.__binaryDict['files'].keys())
 
 
 
@@ -89,6 +91,12 @@ class Search:
                 self.file_list.insert(0,temp)
                 self.squence.insert(0,'H')
 
+
+        results = dict()
+        for doc_num in self.file_list[0]:
+            doc_add = self.__raw_files[f"{doc_num}"]
+            results[re.search(r'.*/(.*)', doc_add).group(1)] = doc_add
+        return results
 
 
 
