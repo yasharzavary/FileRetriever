@@ -10,17 +10,29 @@ class FileManager:
         self.__fileCounter = dict()
         self.__counter = 0
 
-    def addFile(self):
+    def addFile(self, callback):
+        """
+            responsible to control file managing process.
+        :param callback: send signals to ui for updating progress bar
+        :return:
+        """
+        # data for sending signal to ui
+        i = 0
+        step = 100 / len(self.files_address)
         for file_address in self.files_address:
-            file = open(file_address)
-            txt = file.read().strip()
-            file.close()
-            tokens = self.__filter(txt)
-            if not tokens: continue  # if we don't have tokens, go next file
-            # store file and tokens of file in binary dict
-            self.__fileCounter[self.__counter] = file_address
-            self.__addToBinaryDict(tokens)
-            self.__counter+=1
+            i += step
+            callback(i)
+            try:
+                file = open(file_address)
+                txt = file.read().strip()
+                file.close()
+                tokens = self.__filter(txt)  # filter nouns from text
+                if not tokens: continue  # if we don't have tokens, go next file
+                # store file and tokens of file in binary dict
+                self.__fileCounter[self.__counter] = file_address
+                self.__addToBinaryDict(tokens)
+                self.__counter+=1
+            except: continue
 
         # create final dict
         final_dict = {
@@ -28,7 +40,7 @@ class FileManager:
             'tokens': self.__binaryDict
         }
         # open a file and dump final dict
-        with open('../data/binary_dict.json', 'w') as outfile:
+        with open('data/binary_dict.json', 'w') as outfile:
             json.dump(final_dict, outfile, indent=4)
 
 
@@ -52,5 +64,7 @@ class FileManager:
         """
         # check each token and add them to the related dictionary
         for token in token_list:
-            if token in self.__binaryDict: self.__binaryDict[token].append(self.__counter)
-            else: self.__binaryDict[token] = [self.__counter]
+            if token in self.__binaryDict and self.__counter not in self.__binaryDict[token]:
+                self.__binaryDict[token].append(self.__counter)
+            else:
+                self.__binaryDict[token] = [self.__counter]
