@@ -1,11 +1,14 @@
 import spacy
 import json
 
+
+
+
 class FileManager:
+    nlp = spacy.load('en_core_web_sm')
     def __init__(self, files_address: list):
         if not files_address: raise('file address is empty')
         self.files_address = files_address
-        self.nlp = spacy.load('en_core_web_sm')
         self.__binaryDict = dict()
         self.__fileCounter = dict()
         self.__counter = 0
@@ -26,7 +29,7 @@ class FileManager:
                 file = open(file_address)
                 txt = file.read().strip()
                 file.close()
-                tokens = self.__filter(txt)  # filter nouns from text
+                tokens = FileManager.filter(txt)  # filter nouns from text
                 if not tokens: continue  # if we don't have tokens, go next file
                 # store file and tokens of file in binary dict
                 self.__fileCounter[self.__counter] = file_address
@@ -45,14 +48,14 @@ class FileManager:
 
 
     @staticmethod
-    def filter(self, text: str) -> list:
+    def filter(text: str) -> list:
         """
             responsible to detect tokens and ignore useless words like verbs, aux and adjectives.
         :param text: raw text
         :return: list of usefull tokens of text.
         """
         # read tokens and get lemma of  the words(normaliztion)
-        words = self.nlp(text)
+        words = FileManager.nlp(text)
         return [token.lemma_.lower() for token in words
                 if token.is_alpha and not token.is_stop and token.pos not in ['VERB', 'AUX', 'ADJ']
                 ]

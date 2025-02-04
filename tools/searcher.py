@@ -1,5 +1,7 @@
 
 import json
+from algorithms.fileManager import FileManager
+import re
 
 class Search:
     def __init__(self):
@@ -10,6 +12,26 @@ class Search:
         with open('data/binary_dict.json') as file:
             self.__binaryDict = json.load(file)
 
+        self.__tokens = self.__binaryDict['tokens']
+        self.__files = set(self.__binaryDict['files'])
+
+
+
+    def __add(self, word, add:bool = False, notToken:bool = False):
+        if add:
+            self.squence.append(word)
+            self.file_list.append('')
+        else:
+            self.squence.append('H')
+            filtered_word = FileManager.filter(word)[0]
+            if filtered_word in self.__tokens:
+                if notToken:
+                    print(set(self.__tokens[filtered_word]))
+                    self.file_list.append(self.__files - set(self.__tokens[filtered_word]))
+                else:
+                    self.file_list.append(set(self.__tokens[filtered_word]))
+            else:
+                self.file_list.append(set())
 
 
     def search(self, query):
@@ -19,11 +41,9 @@ class Search:
         :return:
         """
         # operators and usages
-        ops = {'and', 'not', 'or'}
-        nots = list()
-        ands = list()
-        ors = list()
 
+        self.squence = list()
+        self.file_list = list()
         word_list = query.lower().split(' ')
         i = 0
         while i < len(word_list):
@@ -32,29 +52,42 @@ class Search:
                     i+=1
                 # add each one to releated part.
                 elif word_list[i] == 'not':
-                    nots.append(word_list[i+1])
+                    self.__add(word_list[i+1], notToken=True)
                     i+=1
-                elif word_list[i+1] not in ops:
-                    ors.append(word_list[i])
+
+                elif len(word_list) == 1:
+                    self.__add(word_list[i])
+                    i+=1
+                elif len(word_list)-1 == i:
+                    if word_list[i-1] != 'not':
+                        self.__add(word_list[i])
                     i+=1
                 else:
                     if word_list[i+1] == 'and':
-                        ands.append(word_list[i])
-                        if word_list[i+2] == 'not':
-                            ands.append(word_list[i+3])
-                        else:
-                            ands.append(word_list[i+2])
+                        self.__add(word_list[i])
+                        self.__add('I', True)
                     elif word_list[i+1] == 'or':
-                        ors.append(word_list[i])
-                        if word_list[i+2] == 'not':
-                            ors.append(word_list[i+3])
-                        else:
-                            ors.append(word_list[i+2])
+                        self.__add(word_list[i])
+                        self.__add('U', True)
                     i+=2
             except: break
 
 
-
+        if len(self.squence) == 0: return False  # if squence empty, return file not found.
+        while len(self.squence) != 1:
+            # updatr sequence and file list depend on words.
+            if self.squence[1] == 'I':
+                self.squence = self.squence[3:]
+                temp = self.file_list[0].intersection(self.file_list[2])
+                self.file_list = self.file_list[3:]
+                self.file_list.insert(0,temp)
+                self.squence.insert(0,'H')
+            elif self.squence[1] == 'U':
+                self.squence = self.squence[3:]
+                temp = self.file_list[0].union(self.file_list[2])
+                self.file_list = self.file_list[3:]
+                self.file_list.insert(0,temp)
+                self.squence.insert(0,'H')
 
 
 
