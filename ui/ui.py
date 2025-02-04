@@ -114,8 +114,8 @@ class SearchEngineUI(QWidget):
 
     def open_file_location(self, path):
         """Open the file location in the system's file explorer."""
-        if os.name == 'nt':  # Windows
-            os.startfile(path)
+        print(path)
+        subprocess.call(['open', path])
 
     def ask_location(self):
         """
