@@ -44,7 +44,8 @@ class FileManager:
             json.dump(final_dict, outfile, indent=4)
 
 
-    def __filter(self, text: str) -> list:
+    @staticmethod
+    def filter(self, text: str) -> list:
         """
             responsible to detect tokens and ignore useless words like verbs, aux and adjectives.
         :param text: raw text
