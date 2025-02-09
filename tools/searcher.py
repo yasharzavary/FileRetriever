@@ -20,16 +20,18 @@ class Search:
 
 
     def __add(self, word, add:bool = False, notToken:bool = False):
+        temp = {int(x) for x in self.__files}
         if add:
             self.squence.append(word)
             self.file_list.append('')
         else:
             self.squence.append('H')
             filtered_word = FileManager.filter(word)[0]
-            if filtered_word in self.__tokens:
+            if notToken and filtered_word not in self.__tokens:
+                self.file_list.append(temp)
+            elif filtered_word in self.__tokens:
                 if notToken:
-                    print(set(self.__tokens[filtered_word]))
-                    self.file_list.append(self.__files - set(self.__tokens[filtered_word]))
+                    self.file_list.append(temp - set(self.__tokens[filtered_word]))
                 else:
                     self.file_list.append(set(self.__tokens[filtered_word]))
             else:
@@ -65,7 +67,12 @@ class Search:
                         self.__add(word_list[i])
                     i+=1
                 else:
-                    if word_list[i+1] == 'and':
+                    if word_list[i-1] == 'not':
+                        if word_list[i + 1] == 'and':
+                            self.__add('I', True)
+                        elif word_list[i + 1] == 'or':
+                            self.__add('U', True)
+                    elif word_list[i+1] == 'and':
                         self.__add(word_list[i])
                         self.__add('I', True)
                     elif word_list[i+1] == 'or':
@@ -74,9 +81,12 @@ class Search:
                     i+=2
             except: break
 
-
+        print('token finish')
+        print(self.squence)
+        print(self.file_list)
         if len(self.squence) == 0: return False  # if squence empty, return file not found.
         while len(self.squence) != 1:
+
             # updatr sequence and file list depend on words.
             if self.squence[1] == 'I':
                 self.squence = self.squence[3:]
@@ -91,7 +101,7 @@ class Search:
                 self.file_list.insert(0,temp)
                 self.squence.insert(0,'H')
 
-
+        print('loop done')
         results = dict()
         for doc_num in self.file_list[0]:
             doc_add = self.__raw_files[f"{doc_num}"]
