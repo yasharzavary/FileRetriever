@@ -1,10 +1,11 @@
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QLineEdit, QPushButton, QLabel,
-    QHBoxLayout, QProgressBar, QMessageBox, QFileDialog, QScrollArea, QFrame
+    QHBoxLayout, QProgressBar, QMessageBox, QFileDialog, QScrollArea, QFrame,
+    QToolBar
 )
 from PySide6.QtCore import QThread, Signal, QTimer, Qt, QSize
 
-from PySide6.QtGui import QIcon
+from PySide6.QtGui import QIcon, QAction
 
 
 # Import the Preprocessor class from the external file
@@ -19,6 +20,7 @@ from tools.searcher import Search
 
 preprocess = Preprocess('all')  # our preprocessor
 searcher = Search()
+
 class PreprocessThread(QThread):
     progress_updated = Signal(int)
     phase_finished = Signal(str)  # Notify when a phase completes
@@ -44,7 +46,7 @@ class SearchEngineUI(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Search Engine Prototype")
+        self.setWindowTitle("File Reterival")
         self.setGeometry(100, 100, 600, 400)  # Window size
 
         # Main Layout
@@ -53,7 +55,7 @@ class SearchEngineUI(QWidget):
         # Search Bar Layout
         search_layout = QHBoxLayout()
         self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("Enter search query...")
+        self.search_input.setPlaceholderText("Enter Binary search query...")
         self.search_button = QPushButton("Search")
         self.search_button.clicked.connect(self.search_action)  # Connect search button
         search_layout.addWidget(self.search_input)
@@ -70,8 +72,20 @@ class SearchEngineUI(QWidget):
         self.scroll_area.setWidget(self.results_container)
 
 
+        # menu settings.
+        menu = QVBoxLayout()
+        reProcess_button = QPushButton()
+        reProcess_button.setIcon(QIcon("ui/media/icons/reProcess.ico"))  # Replace with your folder icon file
+        reProcess_button.setIconSize(QSize(16, 16))  # Set the size of the folder icon
+        reProcess_button.setFixedSize(20, 20)  # Make the button smaller
+        reProcess_button.setToolTip("reProcess")  # Tooltip for the button
+        reProcess_button.setStyleSheet("border: none;")  # Remove the border around the button
+        reProcess_button.clicked.connect(self.ask_preprocessing)
+
+        menu.addWidget(reProcess_button)  # add re process button to the toolbar.
+
         # Future Updates Bar with Progress Bar
-        update_layout = QVBoxLayout()
+        update_layout = QHBoxLayout()
         self.update_label = QLabel("")
         self.progress_bar = QProgressBar()
         self.progress_bar.setValue(0)
@@ -79,7 +93,7 @@ class SearchEngineUI(QWidget):
         update_layout.addWidget(self.progress_bar)
 
         # Adding widgets to layout
-
+        main_layout.addLayout(menu)
         main_layout.addLayout(search_layout)
         main_layout.addWidget(self.scroll_area)
         main_layout.addLayout(update_layout)
@@ -93,8 +107,12 @@ class SearchEngineUI(QWidget):
         self.preprocess_done = False
         self.readBinaryDict = True
 
+
         # Show preprocessing confirmation AFTER the window appears
         QTimer.singleShot(500, self.ask_preprocessing)  # Delay to show after UI loads
+
+    def onMyToolBarButtonClick(self):
+        print('hello')
 
     def ask_preprocessing(self):
         """
@@ -109,12 +127,14 @@ class SearchEngineUI(QWidget):
 
         if response == QMessageBox.Yes:
             self.ask_location()  # Ask for location before starting
-        else:
-            self.preprocess_done = False  # User declined preprocessing
 
     def open_file_location(self, path):
-        """Open the file location in the system's file explorer."""
-        print(path)
+        """
+            open related file location in one sub process
+
+        :param path: path that user choose
+        :return:
+        """
         subprocess.call(['open', path])
 
     def ask_location(self):
