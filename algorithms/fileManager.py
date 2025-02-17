@@ -1,8 +1,6 @@
 import spacy
 import json
-
-
-
+from pypdf import PdfReader
 
 class FileManager:
     nlp = spacy.load('en_core_web_sm')
@@ -12,6 +10,23 @@ class FileManager:
         self.__binaryDict = dict()
         self.__fileCounter = dict()
         self.__counter = 0
+
+    def read_file(self, address: str) -> str:
+        try:  # if something happen in the process, report and continue to process
+            if address[-4:] == '.pdf':
+                reader = PdfReader(address)  # read pdf file with pdf reader library
+                text = ''
+                for i in range(len(reader.pages)):
+                    text += reader.pages[i].extract_text()
+                    text += '\n'
+            elif address[-4:] == '.txt':
+                # read txt files
+                with open(address, 'r') as file:
+                    text = file.read().strip()
+            return text
+        except:
+            print('problems occure in file reading of file manager.')
+            return ''
 
     def addFile(self, callback):
         """
@@ -26,9 +41,7 @@ class FileManager:
             i += step
             callback(i)
             try:
-                file = open(file_address)
-                txt = file.read().strip()
-                file.close()
+                txt = self.read_file(file_address)  # read file depend on file type
                 tokens = FileManager.filter(txt)  # filter nouns from text
                 if not tokens: continue  # if we don't have tokens, go next file
                 # store file and tokens of file in binary dict

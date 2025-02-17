@@ -13,57 +13,61 @@
         "10": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_11_Science.txt",
         "11": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_2.txt",
         "12": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_03_Space_Exploration.txt",
-        "13": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_1.txt",
-        "14": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_15_Culture.txt",
-        "15": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_16_Literature.txt",
-        "16": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_06_Education.txt",
-        "17": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_18_Innovation.txt",
-        "18": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_19_Psychology.txt",
-        "19": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_12_Environment.txt",
-        "20": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_14_Politics.txt",
-        "21": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_10.txt",
-        "22": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_20_Future_of_Humanity.txt",
-        "23": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_02_Nature.txt",
-        "24": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_10_Travel.txt",
-        "25": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_08_Art_and_Creativity.txt",
-        "26": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_07_Philosophy.txt",
-        "27": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_17_Sports.txt",
-        "28": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_9.txt",
-        "29": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_8.txt"
+        "13": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/emprovent_as_replacement_for_Three_law_of_robotics.pdf",
+        "14": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_1.txt",
+        "15": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/python_class_plan.pdf",
+        "16": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_15_Culture.txt",
+        "17": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_16_Literature.txt",
+        "18": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_06_Education.txt",
+        "19": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/molecular_robots_obeying_three_law_of_robotics.pdf",
+        "20": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_18_Innovation.txt",
+        "21": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_19_Psychology.txt",
+        "22": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/machine_learning math.pdf",
+        "23": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_12_Environment.txt",
+        "24": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_14_Politics.txt",
+        "25": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_10.txt",
+        "26": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_20_Future_of_Humanity.txt",
+        "27": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_02_Nature.txt",
+        "28": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_10_Travel.txt",
+        "29": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/Understanding_Ranking_Information_Retrieval.pdf",
+        "30": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_08_Art_and_Creativity.txt",
+        "31": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_07_Philosophy.txt",
+        "32": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/file_17_Sports.txt",
+        "33": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_9.txt",
+        "34": "/Users/yasharzavary/Desktop/Projects/information reterival/Project/testFiles/test_case_8.txt"
     },
     "tokens": {
         "cybersecurity": [
             0
         ],
         "measure": [
-            0
+            22
         ],
         "essential": [
-            0,
-            25
+            22,
+            30
         ],
         "protect": [
-            0,
-            1
+            19
         ],
         "sensitive": [
-            0
+            13,
+            22
         ],
         "datum": [
-            0,
-            9
+            22
         ],
         "cyber": [
             0
         ],
         "threat": [
-            0
+            19
         ],
         "organization": [
-            0
+            13
         ],
         "implement": [
-            0
+            19
         ],
         "firewall": [
             0
@@ -72,90 +76,79 @@
             0
         ],
         "multi": [
-            0
+            22
         ],
         "factor": [
-            0
+            22
         ],
         "authentication": [
             0
         ],
         "ensure": [
-            0
+            22,
+            29
         ],
         "integrity": [
             0
         ],
         "rise": [
             8,
-            13
+            14
         ],
         "cyberattack": [
             0
         ],
         "remain": [
-            0
+            13,
+            22,
+            29
         ],
         "priority": [
-            0
+            0,
+            19
         ],
         "business": [
             0
         ],
         "subject": [
-            1,
-            4,
-            5,
-            6,
-            7,
-            10,
-            12,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
             22,
             23,
             24,
-            25,
             26,
-            27
+            27,
+            28,
+            30,
+            31,
+            32
         ],
         "technology": [
-            1,
-            3,
-            9,
-            21,
-            22,
-            28
+            19,
+            25,
+            26,
+            33
         ],
         "nature": [
-            1,
-            16,
-            23
+            19,
+            27
         ],
         "provide": [
-            1
+            29
         ],
         "beauty": [
             1
         ],
         "resource": [
-            1
+            1,
+            13
         ],
         "life": [
-            1,
-            6,
-            10,
-            21,
-            22,
-            25
+            19,
+            25,
+            26,
+            30
         ],
         "crucial": [
-            1
+            22
         ],
         "shakespeare": [
             2
@@ -167,16 +160,15 @@
             2
         ],
         "work": [
-            2,
-            8
+            19
         ],
         "english": [
             2
         ],
         "literature": [
-            2,
-            14,
-            15
+            13,
+            16,
+            17
         ],
         "tragedy": [
             2
@@ -190,11 +182,15 @@
         "explore": [
             2,
             11,
-            14,
-            29
+            13,
+            16,
+            19,
+            22,
+            34
         ],
         "theme": [
-            2
+            2,
+            13
         ],
         "ambition": [
             2
@@ -209,7 +205,7 @@
             2
         ],
         "literary": [
-            2
+            19
         ],
         "scholar": [
             2
@@ -217,65 +213,61 @@
         "continue": [
             2,
             11,
-            21
+            25
         ],
         "analyze": [
-            2
+            19,
+            29
         ],
         "deep": [
-            2
+            22
         ],
         "meaning": [
-            2
+            13
         ],
         "human": [
-            3,
-            8,
-            14,
-            17,
-            21,
-            26
+            19,
+            20,
+            25,
+            31
         ],
         "brain": [
-            3
+            3,
+            13
         ],
         "complex": [
-            3
+            19,
+            22
         ],
         "organ": [
             3
         ],
         "control": [
-            3,
-            12
+            22
         ],
         "bodily": [
             3
         ],
         "function": [
-            3
+            29
         ],
         "cognitive": [
-            3
+            13
         ],
         "process": [
-            3,
-            9,
-            11,
-            17
+            22
         ],
         "neuroscientist": [
             3
         ],
         "study": [
-            3
+            19
         ],
         "activity": [
-            3,
-            8
+            19
         ],
         "like": [
-            3
+            22
         ],
         "mri": [
             3
@@ -284,134 +276,143 @@
             3
         ],
         "understand": [
-            3,
-            16,
-            17,
-            21
+            22,
+            25,
+            29
         ],
         "neurological": [
             3
         ],
         "disorder": [
-            3
+            3,
+            13
         ],
         "improve": [
-            3
+            22
         ],
         "treatment": [
             3
         ],
         "artificial": [
-            4,
-            9,
-            12
+            19
         ],
         "intelligence": [
-            4,
-            9,
-            12
+            13,
+            19
         ],
         "history": [
             4,
             5,
-            14
+            16,
+            22
         ],
         "teach": [
-            4
+            4,
+            15
         ],
         "lesson": [
             4
         ],
         "past": [
-            4
+            13,
+            19,
+            22
         ],
         "shape": [
-            4,
-            19
+            22,
+            23
         ],
         "understanding": [
-            4
+            13,
+            15,
+            29
         ],
         "present": [
-            4
+            19
         ],
         "education": [
             5,
-            16
+            18
         ],
         "cornerstone": [
             5
         ],
         "personal": [
-            5
+            13
         ],
         "growth": [
             5,
-            13
+            14,
+            22
         ],
         "societal": [
             5
         ],
         "advancement": [
             5,
-            13,
-            28
+            14,
+            33
         ],
         "economy": [
             6,
-            13,
-            19
+            14,
+            23
         ],
         "politic": [
             6
         ],
         "govern": [
-            6
+            6,
+            13
         ],
         "society": [
-            6
+            19
         ],
         "affect": [
-            6
+            13
         ],
         "aspect": [
-            6,
-            22
+            13,
+            15,
+            19,
+            26
         ],
         "daily": [
             6
         ],
         "health": [
-            7,
-            15,
-            25
+            13,
+            17,
+            30
         ],
         "wellness": [
             7,
-            25
+            30
         ],
         "travel": [
             7,
-            24
+            28
         ],
         "broaden": [
             7
         ],
         "horizon": [
-            7
+            13
         ],
         "connect": [
-            7
+            22
         ],
         "people": [
             7,
-            15
+            13,
+            17
         ],
         "culture": [
             7,
-            14,
-            20,
-            26
+            16,
+            19,
+            24,
+            31
         ],
         "worldwide": [
             7
@@ -420,50 +421,57 @@
             8
         ],
         "change": [
-            8
+            22
         ],
         "global": [
             8,
-            19
+            13,
+            22,
+            23
         ],
         "issue": [
-            8
+            13
         ],
         "cause": [
-            8
+            19
         ],
         "greenhouse": [
             8
         ],
         "gas": [
-            8
+            8,
+            19
         ],
         "emission": [
             8
         ],
         "temperature": [
-            8
+            8,
+            19,
+            22
         ],
         "lead": [
-            8
+            19
         ],
         "extreme": [
-            8
+            8,
+            22
         ],
         "weather": [
             8
         ],
         "event": [
-            8
+            22
         ],
         "sea": [
             8
         ],
         "level": [
-            8
+            19,
+            22
         ],
         "loss": [
-            8
+            22
         ],
         "biodiversity": [
             8
@@ -472,28 +480,28 @@
             8
         ],
         "policy": [
-            8
+            22
         ],
         "mitigate": [
-            8
+            13,
+            22
         ],
         "effect": [
-            8
+            19
         ],
         "ai": [
-            9
+            22
         ],
         "transform": [
-            9,
-            12
+            22
         ],
         "multiple": [
-            9
+            22
         ],
         "industry": [
             9,
             12,
-            13
+            14
         ],
         "healthcare": [
             9
@@ -502,71 +510,80 @@
             9
         ],
         "machine": [
-            9
+            29
         ],
         "learning": [
-            9
+            22
         ],
         "model": [
-            9
+            22
         ],
         "large": [
-            9
+            22
         ],
         "amount": [
-            9
+            9,
+            22
         ],
         "recognize": [
-            9
+            19
         ],
         "pattern": [
-            9
+            9,
+            13,
+            19,
+            22
         ],
         "prediction": [
-            9
+            22
         ],
         "advance": [
             9,
-            21,
-            22
+            13,
+            25,
+            26
         ],
         "ethical": [
-            9
+            9,
+            13,
+            19
         ],
         "concern": [
             9,
-            28
+            33
         ],
         "privacy": [
             9
         ],
         "bias": [
-            9
+            22
         ],
         "prominent": [
-            9
+            9,
+            13
         ],
         "science": [
-            10,
-            24,
-            29
+            22,
+            28,
+            34
         ],
         "environment": [
-            10,
-            19
+            13,
+            23
         ],
         "conservation": [
             10
         ],
         "key": [
-            10
+            22,
+            29
         ],
         "sustain": [
             10
         ],
         "earth": [
-            10,
-            23
+            13,
+            27
         ],
         "photosynthesis": [
             11
@@ -581,19 +598,20 @@
             11
         ],
         "light": [
-            11
+            13,
+            22
         ],
         "energy": [
             11
         ],
         "chemical": [
-            11
+            19
         ],
         "mechanism": [
-            11
+            19
         ],
         "involve": [
-            11
+            22
         ],
         "chlorophyll": [
             11
@@ -603,17 +621,18 @@
         ],
         "carbon": [
             11,
-            28
+            33
         ],
         "dioxide": [
             11
         ],
         "result": [
-            11
+            22
         ],
         "production": [
             11,
-            28
+            13,
+            33
         ],
         "oxygen": [
             11
@@ -625,402 +644,9707 @@
             11
         ],
         "way": [
-            11
+            13,
+            19
         ],
         "enhance": [
-            11
+            13,
+            19
         ],
         "efficiency": [
-            11
+            22
         ],
         "agricultural": [
             11
         ],
         "benefit": [
-            11
+            11,
+            13
         ],
         "space": [
-            21,
-            23
+            25,
+            27
         ],
         "exploration": [
-            12,
-            21,
-            23
+            22,
+            25,
+            27
         ],
         "raise": [
-            12
+            13
         ],
         "question": [
-            12
+            13,
+            19
         ],
         "ethic": [
             12
         ],
-        "experience": [
+        "june": [
+            13
+        ],
+        "volume": [
+            22
+        ],
+        "article": [
+            13
+        ],
+        "hypothesis": [
+            22
+        ],
+        "theory": [
+            22
+        ],
+        "publish": [
+            19
+        ],
+        "doi": [
+            13
+        ],
+        "frontiers": [
+            13
+        ],
+        "robotics": [
+            19
+        ],
+        "edit": [
+            13
+        ],
+        "georg": [
+            13
+        ],
+        "martius": [
+            13
+        ],
+        "max": [
+            22
+        ],
+        "planck": [
+            13
+        ],
+        "institute": [
             13,
-            14
+            19
         ],
-        "significant": [
-            13
-        ],
-        "quarter": [
-            13
-        ],
-        "market": [
-            13
-        ],
-        "analyst": [
-            13
-        ],
-        "predict": [
-            13
-        ],
-        "steady": [
-            13
-        ],
-        "increase": [
-            13
-        ],
-        "consumer": [
-            13
-        ],
-        "spending": [
-            13
-        ],
-        "drive": [
+        "intelligent": [
             13,
-            27
+            19
         ],
-        "employment": [
+        "systems": [
             13
         ],
-        "rate": [
+        "mpg": [
             13
         ],
-        "technological": [
+        "germany": [
+            13
+        ],
+        "review": [
+            15
+        ],
+        "kohei": [
+            13
+        ],
+        "nakajima": [
+            13
+        ],
+        "university": [
+            19
+        ],
+        "tokyo": [
+            13
+        ],
+        "japan": [
+            13
+        ],
+        "tom": [
+            13
+        ],
+        "ziemke": [
+            13
+        ],
+        "sk\u00f6vde": [
+            13
+        ],
+        "link\u00f6ping": [
+            13
+        ],
+        "sweden": [
+            13
+        ],
+        "correspondence": [
+            13
+        ],
+        "daniel": [
+            13
+        ],
+        "polani": [
+            13
+        ],
+        "specialty": [
+            13
+        ],
+        "section": [
+            13,
+            15,
+            29
+        ],
+        "submit": [
+            13
+        ],
+        "computational": [
+            13
+        ],
+        "journal": [
+            19
+        ],
+        "receive": [
+            13,
+            22
+        ],
+        "february": [
+            19
+        ],
+        "accepted": [
+            13
+        ],
+        "citation": [
+            13
+        ],
+        "salge": [
+            13
+        ],
+        "c": [
+            22
+        ],
+        "d": [
+            22
+        ],
+        "empowerment": [
+            13
+        ],
+        "replacement": [
+            13,
+            22
+        ],
+        "laws": [
+            19
+        ],
+        "robot": [
+            19
+        ],
+        "robotic": [
+            19,
+            22
+        ],
+        "christoph": [
+            13
+        ],
+        "sepia": [
+            13
+        ],
+        "unit": [
+            22
+        ],
+        "adaptive": [
+            13,
+            22
+        ],
+        "research": [
+            19
+        ],
+        "group": [
+            13
+        ],
+        "school": [
+            13
+        ],
+        "computer": [
+            19,
+            22,
+            34
+        ],
+        "hertfordshire": [
+            13
+        ],
+        "hatfield": [
+            13
+        ],
+        "united": [
+            13
+        ],
+        "kingdom": [
+            13
+        ],
+        "game": [
+            13
+        ],
+        "innovation": [
+            13,
+            20,
+            32
+        ],
+        "lab": [
+            13,
+            19
+        ],
+        "department": [
+            13,
+            19
+        ],
+        "engineering": [
+            13,
+            15
+        ],
+        "new": [
+            19,
+            22,
+            27,
+            32
+        ],
+        "york": [
+            13
+        ],
+        "brooklyn": [
+            13
+        ],
+        "ny": [
+            22
+        ],
+        "states": [
+            13
+        ],
+        "great": [
+            13,
+            22
+        ],
+        "ubiquity": [
+            13
+        ],
+        "create": [
+            13,
+            19,
+            32
+        ],
+        "need": [
+            13
+        ],
+        "generic": [
+            13
+        ],
+        "guideline": [
+            13
+        ],
+        "behavior": [
+            22
+        ],
+        "focus": [
+            13,
+            19
+        ],
+        "technically": [
+            13
+        ],
+        "achieve": [
+            13
+        ],
+        "predefine": [
+            13
+        ],
+        "goal": [
+            13
+        ],
+        "place": [
+            13,
+            19
+        ],
+        "particularly": [
+            13,
+            19,
+            22
+        ],
+        "interested": [
+            13
+        ],
+        "heuristic": [
+            13
+        ],
+        "look": [
+            13
+        ],
+        "motivate": [
+            13
+        ],
+        "interaction": [
+            19
+        ],
+        "agent": [
+            13,
+            22
+        ],
+        "concrete": [
+            13
+        ],
+        "operational": [
+            13
+        ],
+        "proposal": [
+            13
+        ],
+        "information": [
+            29
+        ],
+        "theoretic": [
+            13
+        ],
+        "concept": [
+            22,
+            29
+        ],
+        "quantify": [
+            22
+        ],
+        "self": [
+            19
+        ],
+        "preservation": [
+            13
+        ],
+        "protection": [
+            13
+        ],
+        "partner": [
+            13
+        ],
+        "respond": [
+            19
+        ],
+        "action": [
+            22
+        ],
+        "involved": [
+            13
+        ],
+        "single": [
+            22
+        ],
+        "scenario": [
+            22
+        ],
+        "detail": [
+            15
+        ],
+        "proof": [
+            19
+        ],
+        "principle": [
+            19,
+            34
+        ],
+        "demonstrate": [
+            19
+        ],
+        "interpret": [
+            13
+        ],
+        "perspective": [
             13
         ],
         "allow": [
-            14
-        ],
-        "imagination": [
-            14
-        ],
-        "sports": [
-            15
-        ],
-        "bring": [
-            15
-        ],
-        "promote": [
-            15,
-            28
-        ],
-        "teamwork": [
-            15
-        ],
-        "entertainment": [
-            15
-        ],
-        "philosophy": [
-            16,
-            26
-        ],
-        "seek": [
-            16
-        ],
-        "existence": [
-            16
-        ],
-        "knowledge": [
-            16,
-            21,
-            24
-        ],
-        "morality": [
-            16
-        ],
-        "innovation": [
-            17,
-            27
-        ],
-        "psychology": [
-            17,
-            18
-        ],
-        "help": [
-            17
-        ],
-        "behavior": [
-            17
-        ],
-        "mental": [
-            17
-        ],
-        "future": [
-            18,
             22
         ],
-        "humanity": [
-            18,
+        "specify": [
+            13
+        ],
+        "core": [
             22
+        ],
+        "similar": [
+            13
+        ],
+        "aim": [
+            13,
+            25
+        ],
+        "asimov": [
+            19
+        ],
+        "importantly": [
+            13
+        ],
+        "route": [
+            13
         ],
         "depend": [
-            18
+            19,
+            21,
+            22
         ],
-        "action": [
-            18
+        "have": [
+            13
         ],
-        "today": [
-            18
+        "establish": [
+            13
         ],
-        "balance": [
-            18
+        "explicit": [
+            13
         ],
-        "progress": [
+        "verbalize": [
+            13
+        ],
+        "language": [
+            13
+        ],
+        "convention": [
+            13
+        ],
+        "incorporate": [
+            13
+        ],
+        "ability": [
+            22
+        ],
+        "account": [
+            22
+        ],
+        "rich": [
+            13
+        ],
+        "variety": [
+            13
+        ],
+        "different": [
+            22
+        ],
+        "situation": [
+            13
+        ],
+        "type": [
+            19
+        ],
+        "embodiment": [
+            13
+        ],
+        "keyword": [
+            13
+        ],
+        "intrinsic": [
+            13
+        ],
+        "motivation": [
+            13
+        ],
+        "value": [
+            29
+        ],
+        "law": [
+            22
+        ],
+        "introduction": [
+            19
+        ],
+        "trend": [
+            13
+        ],
+        "modern": [
+            13
+        ],
+        "extend": [
+            22
+        ],
+        "role": [
+            13
+        ],
+        "specifically": [
+            13,
+            19
+        ],
+        "design": [
+            19
+        ],
+        "clearly": [
+            13,
+            19
+        ],
+        "define": [
+            22
+        ],
+        "functionality": [
+            13
+        ],
+        "operate": [
+            13
+        ],
+        "accord": [
+            19
+        ],
+        "confined": [
+            13
+        ],
+        "fication": [
+            13
+        ],
+        "safely": [
+            13
+        ],
+        "separate": [
+            22
+        ],
+        "instead": [
+            13
+        ],
+        "increasingly": [
+            13
+        ],
+        "share": [
+            13,
+            22
+        ],
+        "living": [
+            13
+        ],
+        "act": [
+            13,
+            19
+        ],
+        "servant": [
+            13
+        ],
+        "companion": [
+            13
+        ],
+        "co": [
+            13
+        ],
+        "worker": [
+            13
+        ],
+        "future": [
+            22,
+            26
+        ],
+        "deal": [
+            13,
+            19
+        ],
+        "novel": [
+            13
+        ],
+        "operation": [
+            22
+        ],
+        "require": [
+            19
+        ],
+        "guide": [
+            22
+        ],
+        "form": [
+            13,
+            22
+        ],
+        "high": [
+            22,
+            29
+        ],
+        "instruction": [
+            13
+        ],
+        "able": [
+            22
+        ],
+        "previously": [
+            19
+        ],
+        "unknown": [
+            13
+        ],
+        "unplanned": [
+            13
+        ],
+        "effective": [
+            13,
+            22
+        ],
+        "cope": [
+            13
+        ],
+        "replay": [
+            13
+        ],
+        "meticulously": [
+            13
+        ],
+        "pre": [
+            13
+        ],
+        "arranged": [
+            13
+        ],
+        "sequence": [
+            19
+        ],
+        "execution": [
+            13
+        ],
+        "set": [
+            22
+        ],
+        "task": [
+            22
+        ],
+        "reaction": [
+            19
+        ],
+        "specified": [
+            13
+        ],
+        "arise": [
+            13
+        ],
+        "formalize": [
+            13
+        ],
+        "use": [
+            22
+        ],
+        "generate": [
+            22
+        ],
+        "preference": [
+            13
+        ],
+        "base": [
+            22,
+            29
+        ],
+        "current": [
+            22
+        ],
+        "propose": [
+            13
+        ],
+        "address": [
+            13,
+            19
+        ],
+        "follow": [
+            22
+        ],
+        "initiative": [
+            13
+        ],
+        "expect": [
+            22
+        ],
+        "apply": [
+            22
+        ],
+        "particular": [
+            13
+        ],
+        "directive": [
+            13
+        ],
+        "second": [
+            22
+        ],
+        "break": [
+            19
+        ],
+        "equivalence": [
+            13
+        ],
+        "choose": [
+            13,
+            19,
+            22
+        ],
+        "produce": [
+            22
+        ],
+        "essentially": [
+            13,
+            19
+        ],
+        "desire": [
+            13
+        ],
+        "outcome": [
+            22
+        ],
+        "formulate": [
+            13
+        ],
+        "good": [
+            13,
+            22
+        ],
+        "secondary": [
+            13
+        ],
+        "criterion": [
+            22
+        ],
+        "optimize": [
+            22
+        ],
+        "addition": [
+            22
+        ],
+        "primary": [
+            13
+        ],
+        "job": [
+            13
+        ],
+        "get": [
+            13,
+            19
+        ],
+        "finally": [
+            19
+        ],
+        "safety": [
+            13,
+            19
+        ],
+        "default": [
+            13
+        ],
+        "approach": [
+            22
+        ],
+        "kill": [
+            13
+        ],
+        "switch": [
+            13,
+            22
+        ],
+        "drastic": [
+            13
+        ],
+        "crude": [
+            13
+        ],
+        "step": [
+            29
+        ],
+        "shut": [
+            13
+        ],
+        "stop": [
+            19
+        ],
+        "actuator": [
+            13,
+            19
+        ],
+        "rudimentary": [
+            13
+        ],
+        "response": [
+            13,
+            19
+        ],
+        "undesirable": [
+            13
+        ],
+        "carry": [
+            19
+        ],
+        "vital": [
+            13
+        ],
+        "immediate": [
+            22
+        ],
+        "shutdown": [
+            13
+        ],
+        "harm": [
+            19
+        ],
+        "maintain": [
+            13,
+            22
+        ],
+        "prevent": [
+            22
+        ],
+        "damage": [
+            19
+        ],
+        "summary": [
+            13
+        ],
+        "pronounced": [
+            13
+        ],
+        "aware": [
+            13,
+            19
+        ],
+        "inform": [
+            13
+        ],
+        "fiction": [
+            13,
+            19
+        ],
+        "productive": [
+            13
+        ],
+        "vehicle": [
+            13,
+            33
+        ],
+        "idea": [
+            13,
+            22
+        ],
+        "come": [
+            19,
+            22
+        ],
+        "problem": [
+            22,
+            32,
+            34
+        ],
+        "countless": [
+            13
+        ],
+        "speculation": [
+            13
+        ],
+        "arguably": [
+            13
+        ],
+        "well": [
+            13,
+            15,
+            29
+        ],
+        "know": [
+            22
+        ],
+        "suggestion": [
+            13
+        ],
+        "rule": [
+            22
+        ],
+        "injure": [
+            13
+        ],
+        "inaction": [
+            19
+        ],
+        "obey": [
+            19
+        ],
+        "order": [
+            22
+        ],
+        "give": [
+            22
+        ],
+        "being": [
+            13
+        ],
+        "conflict": [
+            19
+        ],
+        "existence": [
+            13,
             18,
-            27
+            19
         ],
-        "sustainability": [
-            18
+        "long": [
+            22
+        ],
+        "tion": [
+            22
+        ],
+        "ample": [
+            13
+        ],
+        "room": [
+            13,
+            19
+        ],
+        "discuss": [
+            13,
+            15
+        ],
+        "technicality": [
+            13
+        ],
+        "implication": [
+            13
+        ],
+        "mccauley": [
+            13
+        ],
+        "anderson": [
+            13
+        ],
+        "murphy": [
+            13
+        ],
+        "woods": [
+            13
+        ],
+        "believe": [
+            13
+        ],
+        "agree": [
+            13
+        ],
+        "general": [
+            19
+        ],
+        "sentiment": [
+            13
+        ],
+        "argue": [
+            13
+        ],
+        "kind": [
+            13,
+            19
+        ],
+        "tool": [
+            13,
+            15,
+            19
+        ],
+        "humanity": [
+            13,
+            21,
+            26
+        ],
+        "state": [
+            22
+        ],
+        "capture": [
+            22
+        ],
+        "basic": [
+            19
+        ],
+        "requirement": [
+            13
+        ],
+        "compliance": [
+            13
+        ],
+        "robustness": [
+            13
+        ],
+        "attempt": [
+            13
+        ],
+        "explicitly": [
+            13,
+            19,
+            22
+        ],
+        "express": [
+            19,
+            22
+        ],
+        "property": [
+            22
+        ],
+        "central": [
+            22
+        ],
+        "adapt": [
+            22
+        ],
+        "day": [
+            13,
+            15
+        ],
+        "scant": [
+            13
+        ],
+        "semantic": [
+            13
+        ],
+        "comprehension": [
+            13,
+            29
+        ],
+        "natural": [
+            13,
+            22
+        ],
+        "fundamental": [
+            22
+        ],
+        "mine": [
+            13
+        ],
+        "scope": [
+            19
+        ],
+        "context": [
+            19
+        ],
+        "pertinent": [
+            13
+        ],
+        "dennett": [
+            13
+        ],
+        "philosophical": [
+            13,
+            19
+        ],
+        "assign": [
+            22
+        ],
+        "coradeschi": [
+            13
+        ],
+        "et": [
+            19,
+            22
+        ],
+        "al": [
+            19
+        ],
+        "usually": [
+            13
+        ],
+        "radically": [
+            13
+        ],
+        "ferent": [
+            13
+        ],
+        "perceptual": [
+            13
+        ],
+        "reality": [
+            13,
+            19
+        ],
+        "doubtful": [
+            13
+        ],
+        "common": [
+            13,
+            22
+        ],
+        "simple": [
+            15
+        ],
+        "naively": [
+            13
+        ],
+        "relate": [
+            22
+        ],
+        "subsequently": [
+            13
+        ],
+        "difficult": [
+            19
+        ],
+        "build": [
+            13,
+            15
+        ],
+        "constitute": [
+            13
+        ],
+        "avoid": [
+            29
+        ],
+        "inflict": [
+            13
+        ],
+        "imbue": [
+            13
+        ],
+        "face": [
+            13
+        ],
+        "pragmatic": [
+            13
+        ],
+        "guity": [
+            13
+        ],
+        "example": [
+            29
+        ],
+        "legal": [
+            13
+        ],
+        "domain": [
+            13
+        ],
+        "exactly": [
+            13,
+            19
+        ],
+        "case": [
+            22
+        ],
+        "ing": [
+            13,
+            22
+        ],
+        "unambiguous": [
+            13
+        ],
+        "term": [
+            29
+        ],
+        "technical": [
+            13,
+            19
+        ],
+        "fashion": [
+            13
+        ],
+        "relatively": [
+            13
+        ],
+        "sentence": [
+            13
+        ],
+        "amendment": [
+            13
+        ],
+        "constitution": [
+            13
+        ],
+        "spawn": [
+            13
+        ],
+        "decade": [
+            13,
+            19
+        ],
+        "interpretation": [
+            13
+        ],
+        "rie": [
+            13
+        ],
+        "illustrate": [
+            13
+        ],
+        "find": [
+            22,
+            29
+        ],
+        "loophole": [
+            13
+        ],
+        "defy": [
+            13
+        ],
+        "expectation": [
+            22
+        ],
+        "mention": [
+            13
+        ],
+        "unable": [
+            13
+        ],
+        "comply": [
+            13
+        ],
+        "demand": [
+            13
+        ],
+        "regard": [
+            13
+        ],
+        "processing": [
+            22
+        ],
+        "pose": [
+            13,
+            19
+        ],
+        "robust": [
+            22
+        ],
+        "realize": [
+            13
+        ],
+        "paper": [
+            13
+        ],
+        "reproduce": [
+            13
+        ],
+        "formal": [
+            13
+        ],
+        "non": [
+            29
+        ],
+        "method": [
+            22,
+            29
+        ],
+        "underlying": [
+            13
+        ],
+        "employ": [
+            13
+        ],
+        "suggest": [
+            13
+        ],
+        "klyubin": [
+            13
+        ],
+        "potential": [
+            13,
+            19
+        ],
+        "causal": [
+            13
+        ],
+        "flow": [
+            19,
+            22
+        ],
+        "ay": [
+            13
+        ],
+        "characteristic": [
+            13
+        ],
+        "behavioral": [
+            13
+        ],
+        "phenomenology": [
+            13
+        ],
+        "correspond": [
+            19,
+            22
+        ],
+        "certain": [
+            19
+        ],
+        "note": [
+            19
+        ],
+        "precise": [
+            13,
+            22
+        ],
+        "associate": [
+            13,
+            19
+        ],
+        "intuition": [
+            13
+        ],
+        "complete": [
+            22
+        ],
+        "sufficient": [
+            13
+        ],
+        "stage": [
+            19
+        ],
+        "consider": [
+            19,
+            22,
+            29
+        ],
+        "main": [
+            13
+        ],
+        "mission": [
+            13,
+            25
+        ],
+        "line": [
+            22
+        ],
+        "ant": [
+            13
+        ],
+        "forward": [
+            22
+        ],
+        "boden": [
+            13
+        ],
+        "contrast": [
+            13
+        ],
+        "tilden": [
+            13
+        ],
+        "solely": [
+            13
+        ],
+        "autonomous": [
+            19
+        ],
+        "preserve": [
+            22
+        ],
+        "basically": [
+            13
+        ],
+        "live": [
+            13,
+            19
+        ],
+        "hasslacher": [
+            13
+        ],
+        "expressly": [
+            13
+        ],
+        "point": [
+            22
+        ],
+        "exist": [
+            13,
+            19
+        ],
+        "link": [
+            22
+        ],
+        "system": [
+            22
+        ],
+        "guckelsberger": [
+            13
+        ],
+        "centrally": [
+            13
+        ],
+        "formalism": [
+            13
+        ],
+        "offer": [
+            13
+        ],
+        "quantifiable": [
+            13
+        ],
+        "end": [
+            13
+        ],
+        "introduce": [
+            22,
+            29
+        ],
+        "proceed": [
+            13,
+            19
+        ],
+        "definition": [
+            22
+        ],
+        "extension": [
+            13
+        ],
+        "challenge": [
+            13,
+            19
+        ],
+        "fully": [
+            13
+        ],
+        "actual": [
+            22
+        ],
+        "quantity": [
+            13
+        ],
+        "world": [
+            13
+        ],
+        "perceive": [
+            13
+        ],
+        "channel": [
+            13,
+            19
+        ],
+        "capacity": [
+            13
+        ],
+        "actuation": [
+            19
+        ],
+        "time": [
+            22
+        ],
+        "interval": [
+            13,
+            22
+        ],
+        "sensory": [
+            13
+        ],
+        "perception": [
+            13
+        ],
+        "prioristic": [
+            13
+        ],
+        "stepping": [
+            13
+        ],
+        "stone": [
+            13
+        ],
+        "tial": [
+            13
         ],
         "influence": [
+            13,
+            22,
+            23
+        ],
+        "unify": [
+            13
+        ],
+        "ingly": [
+            13
+        ],
+        "disparate": [
+            13
+        ],
+        "drive": [
+            19,
+            32
+        ],
+        "organism": [
+            13
+        ],
+        "plexity": [
+            13
+        ],
+        "internal": [
+            13,
+            22
+        ],
+        "sugar": [
+            13
+        ],
+        "stay": [
+            13
+        ],
+        "healthy": [
+            13
+        ],
+        "leader": [
+            13
+        ],
+        "gang": [
+            13
+        ],
+        "accumulate": [
+            13,
+            22
+        ],
+        "money": [
+            13
+        ],
+        "etc": [
+            15
+        ],
+        "survivability": [
+            13
+        ],
+        "unifying": [
+            13
+        ],
+        "tie": [
+            13
+        ],
+        "notion": [
             19
         ],
-        "livelihood": [
+        "want": [
+            13
+        ],
+        "serve": [
+            19,
+            22
+        ],
+        "spirit": [
+            13
+        ],
+        "related": [
+            13
+        ],
+        "gain": [
+            13,
+            33
+        ],
+        "let": [
+            13,
+            19,
+            22
+        ],
+        "brief": [
+            13
+        ],
+        "background": [
+            13
+        ],
+        "move": [
+            22
+        ],
+        "oesterreich": [
+            13
+        ],
+        "perceivably": [
+            13
+        ],
+        "call": [
             19
         ],
-        "billion": [
+        "divergence": [
+            22
+        ],
+        "effizienzdivergenz": [
+            13
+        ],
+        "german": [
+            13
+        ],
+        "ideal": [
+            13
+        ],
+        "perceivable": [
+            13
+        ],
+        "von": [
+            13
+        ],
+        "foerster": [
+            13
+        ],
+        "famously": [
+            13
+        ],
+        "shall": [
+            13
+        ],
+        "increase": [
+            22
+        ],
+        "total": [
+            22
+        ],
+        "number": [
+            22,
+            29
+        ],
+        "choice": [
+            13
+        ],
+        "option": [
+            13
+        ],
+        "open": [
+            13,
+            15,
+            19,
+            27
+        ],
+        "preferable": [
+            13
+        ],
+        "furthermore": [
+            13
+        ],
+        "seligman": [
+            13
+        ],
+        "force": [
+            19
+        ],
+        "appear": [
+            13,
+            29
+        ],
+        "random": [
+            22
+        ],
+        "variation": [
+            13
+        ],
+        "suffer": [
+            13
+        ],
+        "mental": [
+            13,
+            20
+        ],
+        "recent": [
+            13
+        ],
+        "empirical": [
+            22
+        ],
+        "trendafilov": [
+            13
+        ],
+        "murray": [
+            13
+        ],
+        "smith": [
+            13
+        ],
+        "indicate": [
+            22,
+            29
+        ],
+        "low": [
+            22
+        ],
+        "frustration": [
+            13
+        ],
+        "perform": [
+            22,
+            34
+        ],
+        "highly": [
+            13
+        ],
+        "empower": [
+            13
+        ],
+        "recently": [
+            13
+        ],
+        "emerge": [
+            13
+        ],
+        "physics": [
+            22
+        ],
+        "wissner": [
+            13
+        ],
+        "gross": [
+            13
+        ],
+        "freer": [
+            13
+        ],
+        "closely": [
+            13
+        ],
+        "hypothesize": [
+            13
+        ],
+        "thermodynamic": [
+            13
+        ],
+        "maximum": [
+            22
+        ],
+        "entropy": [
+            22
+        ],
+        "tionary": [
+            13
+        ],
+        "psychological": [
+            13
+        ],
+        "argument": [
+            13,
+            22
+        ],
+        "essence": [
+            13
+        ],
+        "effectance": [
+            13
+        ],
+        "causation": [
+            13
+        ],
+        "competence": [
+            13
+        ],
+        "determination": [
+            22
+        ],
+        "area": [
+            13
+        ],
+        "oudeyer": [
+            13
+        ],
+        "kaplan": [
+            13
+        ],
+        "ryan": [
+            13
+        ],
+        "deci": [
+            13
+        ],
+        "inherent": [
+            19
+        ],
+        "satisfaction": [
+            13
+        ],
+        "separable": [
+            13,
+            22
+        ],
+        "consequence": [
+            13
+        ],
+        "artificially": [
+            13
+        ],
+        "intrinsically": [
+            13
+        ],
+        "motivated": [
+            13
+        ],
+        "curiosity": [
+            13
+        ],
+        "schmidhuber": [
+            13
+        ],
+        "progress": [
+            13,
+            21,
+            22,
+            32
+        ],
+        "predictive": [
+            13
+        ],
+        "homeokinesis": [
+            13
+        ],
+        "der": [
+            13
+        ],
+        "autotelic": [
+            13
+        ],
+        "steels": [
+            13
+        ],
+        "focused": [
+            13
+        ],
+        "reduction": [
+            22
+        ],
+        "dissonance": [
+            13
+        ],
+        "optimal": [
+            22
+        ],
+        "incongruity": [
+            13
+        ],
+        "extent": [
+            13
+        ],
+        "agency": [
+            13,
+            25
+        ],
+        "make": [
+            19
+        ],
+        "suit": [
+            13
+        ],
+        "reliance": [
+            13
+        ],
+        "externally": [
+            13,
+            19
+        ],
+        "reward": [
+            22
+        ],
+        "structure": [
+            22,
+            23
+        ],
+        "independent": [
+            22
+        ],
+        "computable": [
+            13
+        ],
+        "directly": [
+            22
+        ],
+        "applicable": [
+            13
+        ],
+        "sensorimotor": [
+            13
+        ],
+        "little": [
+            13,
+            15
+        ],
+        "external": [
+            13,
+            19,
+            22
+        ],
+        "tuning": [
+            13
+        ],
+        "reflective": [
+            13
+        ],
+        "independence": [
+            13,
+            22
+        ],
+        "demarcate": [
+            13
+        ],
+        "classical": [
+            13,
+            19,
+            34
+        ],
+        "technique": [
+            13,
+            19,
+            22,
+            29
+        ],
+        "reinforcement": [
+            22
+        ],
+        "sutton": [
+            13
+        ],
+        "barto": [
+            13
+        ],
+        "solve": [
+            22,
+            32
+        ],
+        "learn": [
+            22
+        ],
+        "specific": [
+            22
+        ],
+        "incentive": [
+            13
+        ],
+        "rently": [
+            13
+        ],
+        "attend": [
+            13
+        ],
+        "turn": [
+            19
+        ],
+        "coincide": [
+            13
+        ],
+        "computability": [
+            13
+        ],
+        "deploy": [
+            13
+        ],
+        "evaluate": [
+            22
+        ],
+        "sensor": [
+            19
+        ],
+        "input": [
+            22
+        ],
+        "rely": [
+            13
+        ],
+        "umwelt": [
+            13
+        ],
+        "uexk\u00fcll": [
+            13
+        ],
+        "relation": [
+            13
+        ],
+        "respect": [
+            22
+        ],
+        "experience": [
+            13,
+            14,
+            15,
+            16
+        ],
+        "dynamic": [
+            13,
+            19,
+            22
+        ],
+        "sor": [
+            13
+        ],
+        "interplay": [
+            13
+        ],
+        "embodied": [
+            13
+        ],
+        "counterworld": [
+            13
+        ],
+        "gegenwelt": [
+            13
+        ],
+        "mirroring": [
+            13
+        ],
+        "functional": [
+            13
+        ],
+        "circle": [
+            13
+        ],
+        "relevant": [
+            29
+        ],
+        "feedback": [
+            13
+        ],
+        "fit": [
+            22
+        ],
+        "try": [
+            13
+        ],
+        "short": [
+            13,
+            15,
+            19
+        ],
+        "typically": [
+            13
+        ],
+        "belief": [
+            13,
+            22
+        ],
+        "subsequent": [
+            13,
+            19
+        ],
+        "sharkey": [
+            13
+        ],
+        "depth": [
+            13,
+            15
+        ],
+        "explanation": [
+            22,
+            29
+        ],
+        "overview": [
+            13
+        ],
+        "subsumption": [
+            13
+        ],
+        "architecture": [
+            13
+        ],
+        "brooks": [
+            13
+        ],
+        "hierarchy": [
+            13
+        ],
+        "compatible": [
+            13
+        ],
+        "minimal": [
+            13
+        ],
+        "loop": [
+            15
+        ],
+        "configuration": [
+            13
+        ],
+        "desirable": [
+            13
+        ],
+        "mean": [
+            22
+        ],
+        "separately": [
+            13
+        ],
+        "manually": [
+            13
+        ],
+        "morphology": [
+            13
+        ],
+        "applicability": [
+            13
+        ],
+        "combine": [
+            22
+        ],
+        "universal": [
+            13,
+            19
+        ],
+        "precisely": [
+            13
+        ],
+        "driver": [
+            13
+        ],
+        "ideally": [
+            13
+        ],
+        "manner": [
+            13
+        ],
+        "regardless": [
+            13
+        ],
+        "identify": [
+            13,
+            19
+        ],
+        "generation": [
+            13,
+            27
+        ],
+        "figure": [
+            19
+        ],
+        "visualize": [
+            13
+        ],
+        "bayesian": [
+            22
+        ],
+        "network": [
+            22
+        ],
+        "pearl": [
+            13
+        ],
+        "s": [
+            29
+        ],
+        "r": [
+            22
+        ],
+        "represent": [
+            22
+        ],
+        "rest": [
+            13
+        ],
+        "index": [
+            22
+        ],
+        "t": [
+            22
+        ],
+        "variable": [
+            22
+        ],
+        "memoryless": [
+            13
+        ],
+        "red": [
+            19
+        ],
+        "arrow": [
+            13
+        ],
+        "direction": [
+            22
+        ],
+        "freely": [
+            13
+        ],
+        "disconnect": [
+            13
+        ],
+        "inside": [
+            13
+        ],
+        "correlate": [
+            13,
+            19
+        ],
+        "discussion": [
+            19
+        ],
+        "development": [
+            13
+        ],
+        "evolution": [
+            13
+        ],
+        "focusse": [
+            13
+        ],
+        "evaluation": [
+            22
+        ],
+        "imply": [
+            13
+        ],
+        "generically": [
+            13
+        ],
+        "meaningful": [
+            13
+        ],
+        "illustrative": [
+            13
+        ],
+        "block": [
+            22
+        ],
+        "simulated": [
+            22
+        ],
+        "maximization": [
+            13,
+            22
+        ],
+        "reflect": [
+            13,
+            19,
+            31
+        ],
+        "sum": [
+            22
+        ],
+        "surrogate": [
+            13
+        ],
+        "pfeifer": [
+            13
+        ],
+        "bongard": [
+            13
+        ],
+        "fulfill": [
+            13
+        ],
+        "concentrate": [
+            13
+        ],
+        "show": [
+            19,
+            22
+        ],
+        "suitable": [
+            13
+        ],
+        "candidate": [
+            13
+        ],
+        "emphasize": [
+            13
+        ],
+        "develop": [
+            19
+        ],
+        "limit": [
+            22
+        ],
+        "application": [
+            13,
+            34
+        ],
+        "adaptable": [
+            13
+        ],
+        "alternative": [
+            22
+        ],
+        "methodology": [
+            13
+        ],
+        "maximal": [
+            13
+        ],
+        "late": [
+            13
+        ],
+        "shannon": [
+            13
+        ],
+        "compute": [
+            22
+        ],
+        "discrete": [
+            22
+        ],
+        "interact": [
+            19
+        ],
+        "cycle": [
+            13
+        ],
+        "repeat": [
+            13,
+            22
+        ],
+        "computation": [
+            22
+        ],
+        "tell": [
+            13
+        ],
+        "potentially": [
+            13
+        ],
+        "emphatically": [
+            13
+        ],
+        "trajectory": [
+            13,
+            19,
+            22
+        ],
+        "take": [
+            22
+        ],
+        "distribution": [
+            22
+        ],
+        "start": [
+            13,
+            15,
+            22
+        ],
+        "straightforward": [
+            13
+        ],
+        "probabilistic": [
+            22
+        ],
+        "communication": [
+            13
+        ],
+        "mit": [
+            13
+        ],
+        "formally": [
+            13
+        ],
+        "possibly": [
+            13
+        ],
+        "transmit": [
+            13
+        ],
+        "fact": [
+            13
+        ],
+        "erment": [
+            13
+        ],
+        "e": [
+            22
+        ],
+        "rc": [
+            13
+        ],
+        "ri": [
+            13
+        ],
+        "sa": [
+            13
+        ],
+        "rtt": [
+            13
+        ],
+        "pa": [
+            13
+        ],
+        "tt": [
+            13
+        ],
+        "calculate": [
+            29
+        ],
+        "assumption": [
+            13
+        ],
+        "controller": [
+            13
+        ],
+        "completely": [
+            13
+        ],
+        "free": [
+            13,
+            19
+        ],
+        "onward": [
+            13
+        ],
+        "permit": [
+            13
+        ],
+        "bind": [
+            13,
+            19
+        ],
+        "strategy": [
+            13
+        ],
+        "dependent": [
+            13,
+            22
+        ],
+        "consideration": [
+            13
+        ],
+        "initiate": [
+            13
+        ],
+        "observable": [
+            13
+        ],
+        "objective": [
+            22
+        ],
+        "purely": [
+            13
+        ],
+        "derive": [
+            19,
+            22,
+            29
+        ],
+        "early": [
+            19
+        ],
+        "rience": [
+            13
+        ],
+        "conceptual": [
+            13
+        ],
+        "simplicity": [
+            13
+        ],
+        "clarity": [
+            13
+        ],
+        "landscape": [
+            13
+        ],
+        "assume": [
+            22
+        ],
+        "beginning": [
+            13
+        ],
+        "acquire": [
+            13,
+            19
+        ],
+        "sufficiently": [
+            13
+        ],
+        "accurate": [
+            13
+        ],
+        "local": [
+            22
+        ],
+        "st": [
+            22
+        ],
+        "unroll": [
+            13
+        ],
+        "sh": [
+            13
+        ],
+        "ah": [
+            13
+        ],
+        "connection": [
+            13
+        ],
+        "dotted": [
+            13
+        ],
+        "dash": [
+            13
+        ],
+        "denote": [
+            13,
+            19
+        ],
+        "text": [
+            22
+        ],
+        "dot": [
+            22
+        ],
+        "blue": [
+            13,
+            19
+        ],
+        "purple": [
+            13
+        ],
+        "transfer": [
+            13
+        ],
+        "later": [
+            13
+        ],
+        "difficulty": [
+            13
+        ],
+        "acquisition": [
+            13
+        ],
+        "continuous": [
+            22
+        ],
+        "possible": [
+            22
+        ],
+        "determine": [
+            22
+        ],
+        "blahut": [
+            13
+        ],
+        "arimoto": [
+            13
+        ],
+        "algorithm": [
+            22
+        ],
+        "straightforwardly": [
+            13
+        ],
+        "tation": [
+            13,
+            19,
+            22
+        ],
+        "calculation": [
+            29,
+            34
+        ],
+        "continuum": [
+            13
+        ],
+        "jung": [
+            13
+        ],
+        "monte": [
+            22
+        ],
+        "carlo": [
+            22
+        ],
+        "integration": [
+            22
+        ],
+        "approximate": [
+            13,
+            22
+        ],
+        "computationally": [
+            13,
+            22
+        ],
+        "sive": [
+            13
+        ],
+        "significantly": [
+            13,
+            19
+        ],
+        "fast": [
+            13,
+            34
+        ],
+        "treat": [
+            13
+        ],
+        "linear": [
+            22
+        ],
+        "add": [
+            22
+        ],
+        "independently": [
+            13
+        ],
+        "identically": [
+            13
+        ],
+        "distribute": [
+            13
+        ],
+        "gaussian": [
+            22
+        ],
+        "noise": [
+            22
+        ],
+        "talk": [
+            15,
+            19
+        ],
+        "maximize": [
+            22
+        ],
+        "actually": [
+            19,
+            22
+        ],
+        "utilize": [
+            13,
+            19
+        ],
+        "pseudo": [
+            13
+        ],
+        "utility": [
+            13
+        ],
+        "greedy": [
+            13
+        ],
+        "locally": [
+            13
+        ],
+        "visit": [
+            13
+        ],
+        "prefer": [
+            13
+        ],
+        "jump": [
+            13
+        ],
+        "cliff": [
+            13
+        ],
+        "fall": [
+            13,
+            15
+        ],
+        "tortuously": [
+            13
+        ],
+        "climb": [
+            13
+        ],
+        "select": [
+            15,
+            22
+        ],
+        "possess": [
+            13
+        ],
+        "correct": [
+            22
+        ],
+        "happen": [
+            13
+        ],
+        "hand": [
+            13
+        ],
+        "pull": [
+            13
+        ],
+        "slightly": [
+            13,
+            19
+        ],
+        "away": [
+            13,
+            19,
+            22
+        ],
+        "accidentally": [
+            13
+        ],
+        "successor": [
+            13
+        ],
+        "average": [
+            22
+        ],
+        "ment": [
+            13,
+            19
+        ],
+        "advantage": [
+            22
+        ],
+        "alternatively": [
+            13
+        ],
+        "subset": [
+            22
+        ],
+        "thereof": [
+            13
+        ],
+        "plan": [
+            13
+        ],
+        "leu": [
+            13
+        ],
+        "solution": [
+            22
+        ],
+        "course": [
+            15
+        ],
+        "infeasible": [
+            13
+        ],
+        "accordance": [
+            13
+        ],
+        "ciple": [
+            13
+        ],
+        "generally": [
+            13,
+            19
+        ],
+        "map": [
+            22
+        ],
+        "gradient": [
+            22
+        ],
+        "optima": [
+            13
+        ],
+        "reach": [
+            19
+        ],
+        "optimum": [
+            13
+        ],
+        "perspectives": [
+            13
+        ],
+        "outline": [
+            13
+        ],
+        "contain": [
+            29
+        ],
+        "jointly": [
+            13
+        ],
+        "accessible": [
+            13,
+            19
+        ],
+        "respective": [
+            13
+        ],
+        "sical": [
+            13
+        ],
+        "surrounding": [
+            13
+        ],
+        "reliability": [
+            13,
+            22
+        ],
+        "similarly": [
+            13
+        ],
+        "difference": [
+            22
+        ],
+        "ultimately": [
+            13
+        ],
+        "environmental": [
+            13,
+            19,
+            33
+        ],
+        "destroy": [
+            13,
+            19
+        ],
+        "reduce": [
+            22,
+            33
+        ],
+        "access": [
+            13
+        ],
+        "keep": [
+            22
+        ],
+        "hinder": [
+            13
+        ],
+        "somewhat": [
+            13
+        ],
+        "degree": [
+            19,
+            22
+        ],
+        "proximity": [
+            13,
+            19
+        ],
+        "close": [
+            19,
+            22
+        ],
+        "necessarily": [
+            13
+        ],
+        "physically": [
+            13,
+            19
+        ],
+        "reliable": [
+            13,
+            19
+        ],
+        "react": [
+            13
+        ],
+        "predictable": [
+            13
+        ],
+        "direct": [
+            13
+        ],
+        "combination": [
+            22
+        ],
+        "operationalize": [
+            13
+        ],
+        "initially": [
+            13
+        ],
+        "opposite": [
+            13
+        ],
+        "player": [
+            13
+        ],
+        "character": [
+            13
+        ],
+        "npc": [
+            13
+        ],
+        "dungeon": [
+            13
+        ],
+        "crawler": [
+            13
+        ],
+        "simply": [
+            19
+        ],
+        "include": [
+            22,
+            29
+        ],
+        "pertain": [
+            13
+        ],
+        "subsume": [
+            13
+        ],
+        "transition": [
+            13
+        ],
+        "probability": [
+            29
+        ],
+        "integrate": [
+            13,
+            19,
+            22
+        ],
+        "observe": [
+            22
+        ],
+        "freedom": [
+            13
+        ],
+        "indirectly": [
+            13
+        ],
+        "typical": [
+            13
+        ],
+        "see": [
+            13
+        ],
+        "balance": [
+            22
+        ],
+        "pendulum": [
+            13
+        ],
+        "double": [
+            22
+        ],
+        "stabilize": [
+            13,
+            22
+        ],
+        "bicycle": [
+            13
+        ],
+        "word": [
+            13,
+            19
+        ],
+        "position": [
+            13,
+            19,
+            22
+        ],
+        "specification": [
+            13
+        ],
+        "simultaneous": [
+            13
+        ],
+        "bility": [
+            13
+        ],
+        "notably": [
+            13
+        ],
+        "tendency": [
+            13
+        ],
+        "inoperational": [
+            13
+        ],
+        "sponde": [
+            13
+        ],
+        "breakdown": [
+            13
+        ],
+        "death": [
+            13
+        ],
+        "penalty": [
+            22
+        ],
+        "ishing": [
+            13
+        ],
+        "negative": [
+            22
+        ],
+        "alert": [
+            13
+        ],
+        "danger": [
+            19
+        ],
+        "destructive": [
+            13
+        ],
+        "summarize": [
+            13
+        ],
+        "lot": [
+            13
+        ],
+        "autopoesis": [
+            13
+        ],
+        "maturana": [
+            13
+        ],
+        "varela": [
+            13
+        ],
+        "concretely": [
+            13
+        ],
+        "picture": [
+            13
+        ],
+        "physical": [
+            19
+        ],
+        "modulate": [
+            13
+        ],
+        "navigation": [
+            13
+        ],
+        "stuck": [
+            13
+        ],
+        "navigate": [
+            13
+        ],
+        "tight": [
+            13,
+            22
+        ],
+        "passage": [
+            13
+        ],
+        "experiment": [
+            19
+        ],
+        "hard": [
+            22
+        ],
+        "code": [
+            13,
+            19
+        ],
+        "cover": [
+            15
+        ],
+        "modify": [
+            13,
+            19,
+            22
+        ],
+        "ask": [
+            13
+        ],
+        "interactive": [
+            13
+        ],
+        "depict": [
+            13,
+            29
+        ],
+        "simplify": [
+            22,
+            29
+        ],
+        "simulate": [
+            13
+        ],
+        "drastically": [
+            13
+        ],
+        "drop": [
+            13
+        ],
+        "zero": [
+            29
+        ],
+        "erate": [
+            13
+        ],
+        "setup": [
+            13,
+            15
+        ],
+        "presence": [
+            19,
+            29
+        ],
+        "impact": [
+            13,
+            26
+        ],
+        "disturb": [
+            13
+        ],
+        "predict": [
+            22
+        ],
+        "anticipated": [
+            13
+        ],
+        "noisy": [
+            13
+        ],
+        "selectively": [
+            13
+        ],
+        "unpredictable": [
+            13
+        ],
+        "er": [
+            13
+        ],
+        "grayscale": [
+            13
+        ],
+        "dark": [
+            13
+        ],
+        "bright": [
+            13
+        ],
+        "obstacle": [
+            13
+        ],
+        "yellow": [
+            13
+        ],
+        "distance": [
+            22
+        ],
+        "endpoint": [
+            22
+        ],
+        "graph": [
+            22
+        ],
+        "differ": [
+            13,
+            19
+        ],
+        "assumed": [
+            13
+        ],
+        "movement": [
+            13
+        ],
+        "compare": [
+            22,
+            29
+        ],
+        "estimate": [
+            22
+        ],
+        "simulation": [
+            19
+        ],
+        "unchanged": [
+            13
+        ],
+        "follower": [
+            13
+        ],
+        "describe": [
+            19,
+            22
+        ],
+        "wall": [
+            13
+        ],
+        "pass": [
+            13
+        ],
+        "narrow": [
+            13
+        ],
+        "constrain": [
+            22
+        ],
+        "left": [
+            13
+        ],
+        "subfigure": [
+            13
+        ],
+        "experimental": [
+            19
+        ],
+        "scale": [
+            22
+        ],
+        "view": [
+            13,
+            15,
+            19
+        ],
+        "track": [
+            13,
+            19
+        ],
+        "right": [
+            22
+        ],
+        "layout": [
+            13
+        ],
+        "overlay": [
+            13
+        ],
+        "vector": [
+            22
+        ],
+        "field": [
+            22
+        ],
+        "euclidean": [
+            22
+        ],
+        "induce": [
+            19
+        ],
+        "dicte": [
+            13
+        ],
+        "upper": [
+            13,
+            22
+        ],
+        "zone": [
+            13
+        ],
+        "vanishe": [
+            13
+        ],
+        "sharpen": [
+            13
+        ],
+        "sharp": [
+            13
+        ],
+        "inject": [
+            13
+        ],
+        "reliably": [
+            13,
+            19
+        ],
+        "south": [
+            13
+        ],
+        "west": [
+            13
+        ],
+        "obtain": [
+            13
+        ],
+        "likely": [
+            13,
+            22
+        ],
+        "disempowere": [
+            13
+        ],
+        "phenomenon": [
+            19
+        ],
+        "nethack": [
+            13
+        ],
+        "shoot": [
+            13
+        ],
+        "stand": [
+            13,
+            19
+        ],
+        "equally": [
+            13
+        ],
+        "chance": [
+            13,
+            19,
+            22
+        ],
+        "trust": [
+            22
+        ],
+        "benevolent": [
+            13
+        ],
+        "inclined": [
+            13
+        ],
+        "flee": [
+            13
+        ],
+        "real": [
+            19
+        ],
+        "sure": [
+            13,
+            19
+        ],
+        "hedge": [
+            13
+        ],
+        "malevolent": [
+            13
+        ],
+        "negligent": [
+            13
+        ],
+        "friendly": [
+            13
+        ],
+        "fire": [
+            13
+        ],
+        "necessary": [
+            13,
+            15,
+            19
+        ],
+        "gage": [
+            13
+        ],
+        "cooperation": [
+            13
+        ],
+        "unpredictability": [
+            13
+        ],
+        "antagonism": [
+            13
+        ],
+        "imagine": [
+            13,
+            19
+        ],
+        "npcs": [
+            13
+        ],
+        "feed": [
+            13
+        ],
+        "repair": [
+            13
+        ],
+        "heal": [
+            13
+        ],
+        "viable": [
+            13
+        ],
+        "timescale": [
+            13
+        ],
+        "absence": [
+            13,
+            19,
+            29
+        ],
+        "automatically": [
+            13
+        ],
+        "draw": [
+            13,
+            22
+        ],
+        "drift": [
+            13
+        ],
+        "strive": [
+            13
+        ],
+        "laser": [
+            19
+        ],
+        "occlude": [
+            13
+        ],
+        "body": [
+            13,
+            19
+        ],
+        "range": [
+            13,
+            15,
+            22
+        ],
+        "vanish": [
+            13
+        ],
+        "readiness": [
+            13
+        ],
+        "plausible": [
+            13
+        ],
+        "proxy": [
+            13
+        ],
+        "analogy": [
+            13
+        ],
+        "component": [
+            22,
+            29
+        ],
+        "maximizing": [
+            13
+        ],
+        "previous": [
+            13
+        ],
+        "disable": [
+            13
+        ],
+        "harmless": [
+            13
+        ],
+        "color": [
+            19
+        ],
+        "white": [
+            13
+        ],
+        "barrier": [
+            22
+        ],
+        "pronounce": [
+            13
+        ],
+        "partially": [
+            13,
+            19
+        ],
+        "flat": [
+            13
+        ],
+        "far": [
+            13
+        ],
+        "exact": [
+            13
+        ],
+        "person": [
+            13,
+            19
+        ],
+        "video": [
+            13,
+            15
+        ],
+        "enemy": [
+            13
+        ],
+        "save": [
+            13
+        ],
+        "remove": [
+            13
+        ],
+        "zation": [
+            13
+        ],
+        "variant": [
+            13,
+            19,
+            22
+        ],
+        "obstruct": [
+            13
+        ],
+        "interfere": [
+            13
+        ],
+        "noticeable": [
+            13
+        ],
+        "accessibility": [
+            13
+        ],
+        "tralize": [
+            13
+        ],
+        "maim": [
+            13
+        ],
+        "impede": [
+            13
+        ],
+        "sense": [
+            19
+        ],
+        "plausibly": [
+            13
+        ],
+        "support": [
+            13,
+            19,
+            22
+        ],
+        "agenda": [
+            13
+        ],
+        "caveat": [
+            13
+        ],
+        "p": [
+            22
+        ],
+        "threaten": [
+            13
+        ],
+        "simultaneously": [
+            13
+        ],
+        "image": [
+            19,
+            22
+        ],
+        "successive": [
+            13
+        ],
+        "escape": [
+            13,
+            22
+        ],
+        "rescue": [
+            13
+        ],
+        "defend": [
+            13
+        ],
+        "shooting": [
+            13
+        ],
+        "permission": [
+            13
+        ],
+        "visualization": [
+            13
+        ],
+        "htr": [
+            13
+        ],
+        "elevate": [
+            13
+        ],
+        "trivial": [
+            13
+        ],
+        "portable": [
+            13
+        ],
+        "modeling": [
+            22
+        ],
+        "detect": [
+            19,
+            22
+        ],
+        "sible": [
+            13,
+            22
+        ],
+        "strongly": [
+            13,
+            22
+        ],
+        "abstract": [
+            19
+        ],
+        "wide": [
+            13
+        ],
+        "implementation": [
+            22
+        ],
+        "endow": [
+            13
+        ],
+        "loosely": [
+            13
+        ],
+        "empathetic": [
+            13
+        ],
+        "spective": [
+            13
+        ],
+        "critical": [
+            22
+        ],
+        "limitation": [
+            13
+        ],
+        "ism": [
+            13
+        ],
+        "parameter": [
+            22
+        ],
+        "bullet": [
+            13
+        ],
+        "pit": [
+            13
+        ],
+        "massively": [
+            13
+        ],
+        "thing": [
+            13
+        ],
+        "advantageous": [
+            13
+        ],
+        "run": [
+            13
+        ],
+        "lawmaking": [
+            13
+        ],
+        "curtail": [
+            13
+        ],
+        "effort": [
+            13
+        ],
+        "obstruction": [
+            13
+        ],
+        "interference": [
+            13
+        ],
+        "say": [
+            13
+        ],
+        "practice": [
+            13,
+            29
+        ],
+        "counter": [
+            13
+        ],
+        "lack": [
+            13,
+            19
+        ],
+        "service": [
+            13
+        ],
+        "fix": [
+            13,
+            22
+        ],
+        "tive": [
+            13
+        ],
+        "ence": [
+            13
+        ],
+        "consequently": [
+            13
+        ],
+        "ring": [
+            13
+        ],
+        "modulation": [
+            13
+        ],
+        "analogous": [
+            13,
+            19
+        ],
+        "panion": [
+            13
+        ],
+        "pathway": [
+            13
+        ],
+        "h": [
+            22
+        ],
+        "contribute": [
+            13
+        ],
+        "exemplary": [
+            13
+        ],
+        "path": [
+            22
+        ],
+        "appropriate": [
+            13
+        ],
+        "orange": [
+            13
+        ],
+        "ab": [
+            22
+        ],
+        "n": [
+            22,
+            29
+        ],
+        "b": [
+            22
+        ],
+        "couple": [
+            13
+        ],
+        "trace": [
+            22
+        ],
+        "enter": [
+            13,
+            19
+        ],
+        "corridor": [
+            13
+        ],
+        "narrowness": [
+            13
+        ],
+        "lower": [
+            22
+        ],
+        "begin": [
+            13,
+            19
+        ],
+        "help": [
+            13,
+            19,
+            20
+        ],
+        "overcome": [
+            13
+        ],
+        "persistent": [
+            13
+        ],
+        "representation": [
+            22
+        ],
+        "vice": [
+            13
+        ],
+        "versa": [
+            13
+        ],
+        "part": [
+            13,
+            22
+        ],
+        "sight": [
+            13
+        ],
+        "distinction": [
+            13
+        ],
+        "reason": [
+            13,
+            19
+        ],
+        "adjust": [
+            22,
+            29
+        ],
+        "burden": [
+            13
+        ],
+        "seek": [
+            13,
+            18,
+            22
+        ],
+        "elicit": [
+            13
+        ],
+        "evident": [
+            13
+        ],
+        "respectively": [
+            13
+        ],
+        "mirror": [
+            13
+        ],
+        "comparatively": [
+            13
+        ],
+        "attain": [
+            13
+        ],
+        "lose": [
+            13
+        ],
+        "controllability": [
+            13
+        ],
+        "limited": [
+            19
+        ],
+        "push": [
+            13,
+            25
+        ],
+        "button": [
+            13
+        ],
+        "precondition": [
+            13
+        ],
+        "coordination": [
+            13
+        ],
+        "matter": [
+            13
+        ],
+        "match": [
+            13
+        ],
+        "count": [
+            22
+        ],
+        "consistently": [
+            13
+        ],
+        "effectively": [
+            13
+        ],
+        "expand": [
+            13
+        ],
+        "amplify": [
+            13
+        ],
+        "additional": [
+            13,
+            19
+        ],
+        "relationship": [
+            22
+        ],
+        "proto": [
+            13
+        ],
+        "gesture": [
+            13
+        ],
+        "verbal": [
+            13
+        ],
+        "command": [
+            19
+        ],
+        "consist": [
+            13,
+            15
+        ],
+        "basis": [
+            13,
+            19,
+            22
+        ],
+        "enhancement": [
+            13
+        ],
+        "foundation": [
+            13
+        ],
+        "virtue": [
+            13
+        ],
+        "manipulate": [
+            13
+        ],
+        "implicitly": [
+            13
+        ],
+        "formalization": [
+            13
+        ],
+        "operationalization": [
+            13
+        ],
+        "roughly": [
+            13,
+            19
+        ],
+        "cor": [
+            13
+        ],
+        "capability": [
+            13,
+            19
+        ],
+        "cum": [
+            13
+        ],
+        "warn": [
+            13
+        ],
+        "indicator": [
+            19
+        ],
+        "boundary": [
+            13,
+            25
+        ],
+        "viability": [
+            13
+        ],
+        "imminent": [
+            13
+        ],
+        "destruction": [
+            13
+        ],
+        "interior": [
+            13
+        ],
+        "tional": [
+            13,
+            22
+        ],
+        "useful": [
+            22
+        ],
+        "driving": [
+            13
+        ],
+        "practical": [
+            13,
+            15
+        ],
+        "immediately": [
+            13,
+            19
+        ],
+        "dramatically": [
+            13
+        ],
+        "temporal": [
+            22
+        ],
+        "speed": [
+            22
+        ],
+        "impoverished": [
+            13
+        ],
+        "anthony": [
+            13
+        ],
+        "prune": [
+            13
+        ],
+        "sample": [
+            22
+        ],
+        "deterministic": [
+            22
+        ],
+        "spread": [
+            13,
+            22
+        ],
+        "approximation": [
+            22
+        ],
+        "tinuous": [
+            13
+        ],
+        "variance": [
+            22
+        ],
+        "propagation": [
+            22
+        ],
+        "neural": [
+            22
+        ],
+        "karl": [
+            13
+        ],
+        "promising": [
+            13
+        ],
+        "mohamed": [
+            22
+        ],
+        "jimenez": [
+            13
+        ],
+        "rezende": [
+            13
+        ],
+        "considerable": [
+            13
+        ],
+        "up": [
+            13
+        ],
+        "establishment": [
+            13
+        ],
+        "ful": [
+            13
+        ],
+        "battery": [
+            13,
+            33
+        ],
+        "year": [
+            13
+        ],
+        "warrant": [
+            13
+        ],
+        "invest": [
+            13,
+            33
+        ],
+        "realistically": [
+            13
+        ],
+        "sized": [
+            13
+        ],
+        "list": [
+            15,
+            19
+        ],
+        "ground": [
+            13
+        ],
+        "render": [
+            13
+        ],
+        "deployment": [
+            13
+        ],
+        "practically": [
+            13,
+            19
+        ],
+        "traditional": [
+            13
+        ],
+        "crucially": [
+            13
+        ],
+        "interventional": [
+            13
+        ],
+        "sidestep": [
+            13
+        ],
+        "dearden": [
+            13
+        ],
+        "demiris": [
+            13
+        ],
+        "nguyen": [
+            13
+        ],
+        "tuong": [
+            13
+        ],
+        "peters": [
+            13
+        ],
+        "distinguishable": [
+            13
+        ],
+        "ple": [
+            13
+        ],
+        "learner": [
+            13
+        ],
+        "rasmussen": [
+            13
+        ],
+        "williams": [
+            13
+        ],
+        "fly": [
+            13
+        ],
+        "incrementally": [
+            13
+        ],
+        "inverted": [
+            13
+        ],
+        "prespecifie": [
+            13
+        ],
+        "train": [
+            13
+        ],
+        "uncertainty": [
+            22
+        ],
+        "devalue": [
+            13
+        ],
+        "available": [
+            13,
+            15
+        ],
+        "irrespective": [
+            13
+        ],
+        "error": [
+            22
+        ],
+        "stem": [
+            13
+        ],
+        "insufficient": [
+            13
+        ],
+        "training": [
+            22
+        ],
+        "equivalent": [
+            13
+        ],
+        "class": [
+            22
+        ],
+        "tend": [
+            13
+        ],
+        "one": [
+            13
+        ],
+        "unpredictably": [
+            13
+        ],
+        "invoke": [
+            13
+        ],
+        "initial": [
+            13,
+            19,
+            22
+        ],
+        "phase": [
+            13
+        ],
+        "resolve": [
+            13
+        ],
+        "obvious": [
+            13
+        ],
+        "intertwining": [
+            13
+        ],
+        "exhibit": [
+            13
+        ],
+        "exploratory": [
+            13
+        ],
+        "averse": [
+            13
+        ],
+        "encounter": [
+            13
+        ],
+        "resolution": [
+            13
+        ],
+        "attention": [
+            13
+        ],
+        "sensitivity": [
+            13
+        ],
+        "reminiscent": [
+            13
+        ],
+        "animal": [
+            13,
+            19
+        ],
+        "social": [
+            13
+        ],
+        "invite": [
+            13
+        ],
+        "confident": [
+            13
+        ],
+        "following": [
+            13
+        ],
+        "awareness": [
+            13
+        ],
+        "enjoy": [
+            13
+        ],
+        "autonomy": [
+            13,
+            19
+        ],
+        "undergo": [
+            13,
+            19
+        ],
+        "suitably": [
+            13
+        ],
+        "organize": [
+            13
+        ],
+        "socialization": [
+            13
+        ],
+        "remark": [
+            13
+        ],
+        "mechanic": [
+            13,
+            22,
+            34
+        ],
+        "representations": [
+            13
+        ],
+        "psr": [
+            13
+        ],
+        "singh": [
+            13
+        ],
+        "maye": [
+            13
+        ],
+        "engel": [
+            13
+        ],
+        "contingency": [
+            13
+        ],
+        "no\u00eb": [
+            13
+        ],
+        "gradually": [
+            22
+        ],
+        "partial": [
+            22
+        ],
+        "incarnation": [
+            13
+        ],
+        "briefly": [
+            13,
+            19
+        ],
+        "hint": [
+            13
+        ],
+        "selection": [
+            13,
+            15,
+            19
+        ],
+        "immensely": [
+            13
+        ],
+        "positional": [
+            13
+        ],
+        "care": [
+            13
+        ],
+        "mobility": [
+            13
+        ],
+        "visual": [
+            19
+        ],
+        "reachable": [
+            13,
+            22
+        ],
+        "biological": [
+            19
+        ],
+        "lean": [
+            13
+        ],
+        "evolutionary": [
+            13
+        ],
+        "adaptation": [
+            13
+        ],
+        "jeffery": [
+            13
+        ],
+        "register": [
+            13
+        ],
+        "irrelevant": [
+            13
+        ],
+        "disappear": [
+            13
+        ],
+        "leave": [
+            22
+        ],
+        "generous": [
+            13
+        ],
+        "parsimonious": [
+            13
+        ],
+        "imitation": [
+            13
+        ],
+        "hypothesized": [
+            13
+        ],
+        "parsimony": [
+            13
+        ],
+        "biology": [
+            13,
+            19
+        ],
+        "laughlin": [
+            13
+        ],
+        "opportune": [
+            13
+        ],
+        "oneself": [
+            13
+        ],
+        "worth": [
+            13
+        ],
+        "big": [
+            13
+        ],
+        "identical": [
+            13
+        ],
+        "distinct": [
+            19
+        ],
+        "relative": [
+            13,
+            19,
+            22,
+            29
+        ],
+        "content": [
+            13,
+            15,
+            22
+        ],
+        "east": [
+            13
+        ],
+        "interest": [
+            19
+        ],
+        "coordinate": [
+            22
+        ],
+        "split": [
+            13
+        ],
+        "cally": [
+            13
+        ],
+        "embody": [
+            13
+        ],
+        "easy": [
+            13
+        ],
+        "differentiate": [
+            13
+        ],
+        "separation": [
+            22
+        ],
+        "prioritization": [
+            13
+        ],
+        "bit": [
+            13
+        ],
+        "valuable": [
+            19
+        ],
+        "retain": [
+            13
+        ],
+        "heuristics": [
+            13
+        ],
+        "weight": [
+            29
+        ],
+        "clear": [
+            13,
+            19,
+            22
+        ],
+        "lexicographic": [
+            13
+        ],
+        "ordering": [
+            13
+        ],
+        "override": [
+            19
+        ],
+        "go": [
+            13
+        ],
+        "minor": [
+            13
+        ],
+        "violate": [
+            19
+        ],
+        "strict": [
+            13
+        ],
+        "rational": [
+            13
+        ],
+        "worthwhile": [
+            13
+        ],
+        "trade": [
+            13
+        ],
+        "presume": [
+            13
+        ],
+        "seriously": [
+            13
+        ],
+        "dilemmata": [
+            13
+        ],
+        "decision": [
+            19,
+            22
+        ],
+        "making": [
+            13,
+            19
+        ],
+        "tension": [
+            13
+        ],
+        "original": [
+            13,
+            22
+        ],
+        "gedankenexperiment": [
+            13
+        ],
+        "scratch": [
+            13
+        ],
+        "perfectly": [
+            13
+        ],
+        "peaceful": [
+            13
+        ],
+        "dictate": [
+            13
+        ],
+        "chose": [
+            13
+        ],
+        "incline": [
+            13
+        ],
+        "negligible": [
+            13
+        ],
+        "regression": [
+            22
+        ],
+        "age": [
+            15
+        ],
+        "insight": [
+            13
+        ],
+        "previ": [
+            13
+        ],
+        "ously": [
+            13
+        ],
+        "usual": [
+            13
+        ],
+        "inevitably": [
+            13
+        ],
+        "arbitrary": [
+            19
+        ],
+        "instructive": [
+            13
+        ],
+        "significant": [
+            13,
+            14
+        ],
+        "few": [
+            13
+        ],
+        "rebuild": [
+            13
+        ],
+        "absorb": [
+            13
+        ],
+        "ristic": [
+            13
+        ],
+        "program": [
+            19
+        ],
+        "meta": [
+            13
+        ],
+        "ultimate": [
+            13
+        ],
+        "conjecture": [
+            13
+        ],
+        "zon": [
+            13
+        ],
+        "manifest": [
+            13
+        ],
+        "optimization": [
+            22,
+            34
+        ],
+        "cost": [
+            22
+        ],
+        "small": [
+            22
+        ],
+        "bad": [
+            13,
+            22
+        ],
+        "injury": [
+            13,
+            19
+        ],
+        "final": [
+            19
+        ],
+        "true": [
+            22
+        ],
+        "subtle": [
+            13
+        ],
+        "execute": [
+            13
+        ],
+        "length": [
+            22
+        ],
+        "observation": [
+            13
+        ],
+        "intermediate": [
+            13,
+            19
+        ],
+        "probe": [
+            13
+        ],
+        "impossible": [
+            13,
+            19
+        ],
+        "important": [
+            13
+        ],
+        "reactive": [
+            13
+        ],
+        "closed": [
+            13
+        ],
+        "instantaneously": [
+            13
+        ],
+        "probed": [
+            13
+        ],
+        "tionalize": [
+            13
+        ],
+        "transparent": [
+            13
+        ],
+        "fusion": [
+            13
+        ],
+        "author": [
+            19
+        ],
+        "contribution": [
+            13
+        ],
+        "cs": [
+            13
+        ],
+        "dp": [
+            13
+        ],
+        "write": [
+            15,
+            19
+        ],
+        "draft": [
+            13,
+            19
+        ],
+        "advise": [
+            13
+        ],
+        "opment": [
+            13
+        ],
+        "funding": [
+            13
+        ],
+        "acknowledge": [
+            13
+        ],
+        "ec": [
+            13
+        ],
+        "socsmcs": [
+            13
+        ],
+        "fet": [
+            13
+        ],
+        "proactive": [
+            13
+        ],
+        "project": [
+            22
+        ],
+        "wimust": [
+            13
+        ],
+        "european": [
+            13,
+            19
+        ],
+        "union": [
+            13,
+            22
+        ],
+        "marie": [
+            13
+        ],
+        "sklodowska": [
+            13
+        ],
+        "curie": [
+            13
+        ],
+        "grant": [
+            19
+        ],
+        "thank": [
+            19
+        ],
+        "cornelius": [
+            13
+        ],
+        "glackin": [
+            13
+        ],
+        "christian": [
+            13
+        ],
+        "reference": [
+            13,
+            19
+        ],
+        "metaethic": [
+            13
+        ],
+        "soc": [
+            13
+        ],
+        "nehaniv": [
+            13
+        ],
+        "egy": [
+            13
+        ],
+        "identification": [
+            13
+        ],
+        "sokoban": [
+            13
+        ],
+        "pac": [
+            13
+        ],
+        "man": [
+            13
+        ],
+        "ieee": [
+            13
+        ],
+        "trans": [
+            13
+        ],
+        "comput": [
+            13
+        ],
+        "intell": [
+            13
+        ],
+        "games": [
+            13
+        ],
+        "pp": [
+            13
+        ],
+        "bandwidth": [
+            13
+        ],
+        "advances": [
+            13
+        ],
+        "darwin": [
+            13
+        ],
+        "meet": [
+            13
+        ],
+        "neumann": [
+            13
+        ],
+        "conference": [
+            13,
+            19
+        ],
+        "ecal": [
+            13
+        ],
+        "budapest": [
+            13
+        ],
+        "hungary": [
+            13
+        ],
+        "september": [
+            13
+        ],
+        "revised": [
+            13
+        ],
+        "selected": [
+            13
+        ],
+        "papers": [
+            13
+        ],
+        "ii": [
+            13
+        ],
+        "lecture": [
+            13,
+            15
+        ],
+        "notes": [
+            13,
+            19
+        ],
+        "ed": [
+            13
+        ],
+        "kampis": [
+            13
+        ],
+        "karsai": [
+            13
+        ],
+        "szathm\u00e1ry": [
+            13
+        ],
+        "springer": [
+            13
+        ],
+        "info": [
+            13
+        ],
+        "runaround": [
+            19
+        ],
+        "astound": [
+            13
+        ],
+        "sci": [
+            13,
+            19
+        ],
+        "bertschinger": [
+            13
+        ],
+        "g\u00fcttler": [
+            13
+        ],
+        "f": [
+            22
+        ],
+        "olbrich": [
+            13
+        ],
+        "explorative": [
+            13
+        ],
+        "eur": [
+            13
+        ],
+        "phys": [
+            13
+        ],
+        "condens": [
+            13
+        ],
+        "syst": [
+            13
+        ],
+        "epjb": [
+            13
+        ],
+        "adv": [
+            13
+        ],
+        "rate": [
+            22
+        ],
+        "distortion": [
+            22
+        ],
+        "bryson": [
+            13
+        ],
+        "caldwell": [
+            13
+        ],
+        "dautenhahn": [
+            13
+        ],
+        "edwards": [
+            13
+        ],
+        "kember": [
+            13
+        ],
+        "kingdoms": [
+            13
+        ],
+        "sciences": [
+            13
+        ],
+        "council": [
+            13,
+            19
+        ],
+        "epsrc": [
+            13
+        ],
+        "web": [
+            13
+        ],
+        "publication": [
+            13
+        ],
+        "layer": [
+            22
+        ],
+        "mobile": [
+            13
+        ],
+        "auto": [
+            13
+        ],
+        "loutfi": [
+            13
+        ],
+        "wrede": [
+            13
+        ],
+        "symbol": [
+            22
+        ],
+        "grounding": [
+            13
+        ],
+        "k\u00fcnstliche": [
+            13
+        ],
+        "y": [
+            22
+        ],
+        "proceedings": [
+            13
+        ],
+        "international": [
+            13,
+            19
+        ],
+        "joint": [
+            22
+        ],
+        "edinburgh": [
+            13
+        ],
+        "morgan": [
+            13
+        ],
+        "kaufmann": [
+            13
+        ],
+        "publishers": [
+            13
+        ],
+        "wheel": [
+            13
+        ],
+        "frame": [
+            13
+        ],
+        "mind": [
+            13
+        ],
+        "machines": [
+            13
+        ],
+        "hookway": [
+            13
+        ],
+        "cambridge": [
+            13
+        ],
+        "ma": [
+            13
+        ],
+        "press": [
+            19
+        ],
+        "steinmetz": [
+            13
+        ],
+        "pasemann": [
+            13
+        ],
+        "leipzig": [
+            13
+        ],
+        "inst": [
+            13
+        ],
+        "f\u00fcr": [
+            13
+        ],
+        "mathematik": [
+            13
+        ],
+        "den": [
+            13
+        ],
+        "naturwiss": [
+            13
+        ],
+        "maximisation": [
+            13
+        ],
+        "enactive": [
+            13
+        ],
+        "synthesis": [
+            13
+        ],
+        "cancun": [
+            13
+        ],
+        "colton": [
+            13
+        ],
+        "cig": [
+            13
+        ],
+        "santorini": [
+            13
+        ],
+        "w": [
+            22
+        ],
+        "rob": [
+            13
+        ],
+        "auton": [
+            13
+        ],
+        "eye": [
+            13
+        ],
+        "degeneration": [
+            13
+        ],
+        "mexican": [
+            13
+        ],
+        "blind": [
+            13
+        ],
+        "cavefish": [
+            13
+        ],
+        "hered": [
+            13
+        ],
+        "jhered": [
+            13
+        ],
+        "behav": [
+            13
+        ],
+        "bayer": [
+            13
+        ],
+        "van": [
+            13
+        ],
+        "smagt": [
+            13
+        ],
+        "efficient": [
+            13,
+            22
+        ],
+        "arxiv": [
+            13
+        ],
+        "preprint": [
+            13
+        ],
+        "centric": [
+            13
+        ],
+        "congress": [
+            13
+        ],
+        "vol": [
+            13
+        ],
+        "plos": [
+            13
+        ],
+        "de": [
+            13
+        ],
+        "ruyter": [
+            13
+        ],
+        "steveninck": [
+            13
+        ],
+        "metabolic": [
+            13
+        ],
+        "nat": [
+            13
+        ],
+        "neurosci": [
+            13
+        ],
+        "durrant": [
+            13
+        ],
+        "slavnic": [
+            13
+        ],
+        "corbys": [
+            13
+        ],
+        "sice": [
+            13
+        ],
+        "symposium": [
+            13
+        ],
+        "sii": [
+            13
+        ],
+        "taipei": [
+            13
+        ],
+        "autopoiesis": [
+            13
+        ],
+        "cognition": [
+            13
+        ],
+        "realization": [
+            13
+        ],
+        "planning": [
+            13
+        ],
+        "armageddon": [
+            13
+        ],
+        "ethics": [
+            13
+        ],
+        "inf": [
+            13
+        ],
+        "technol": [
+            13
+        ],
+        "variational": [
+            13
+        ],
+        "misation": [
+            13
+        ],
+        "cortes": [
+            13
+        ],
+        "lawrence": [
+            13
+        ],
+        "lee": [
+            13
+        ],
+        "sugiyama": [
+            13
+        ],
+        "garnett": [
+            13
+        ],
+        "montreal": [
+            13
+        ],
+        "curran": [
+            13
+        ],
+        "associates": [
+            13
+        ],
+        "survey": [
+            13
+        ],
+        "cogn": [
+            13
+        ],
+        "entwicklung": [
+            13
+        ],
+        "eine": [
+            13
+        ],
+        "konzepts": [
+            13
+        ],
+        "objectiven": [
+            13
+        ],
+        "kontrolle": [
+            13
+        ],
+        "und": [
+            13
+        ],
+        "kontrollkompetenz": [
+            13
+        ],
+        "ein": [
+            13
+        ],
+        "handlungstheoretischer": [
+            13
+        ],
+        "ansatz": [
+            13
+        ],
+        "thesis": [
+            13
+        ],
+        "technische": [
+            13
+        ],
+        "universit\u00e4t": [
+            13
+        ],
+        "berlin": [
+            13
+        ],
+        "vision": [
+            13
+        ],
+        "consciousness": [
+            13
+        ],
+        "typology": [
+            13
+        ],
+        "neurorobot": [
+            13
+        ],
+        "hafner": [
+            13
+        ],
+        "v": [
+            22
+        ],
+        "evol": [
+            13
+        ],
+        "causality": [
+            13
+        ],
+        "reasoning": [
+            19,
+            22
+        ],
+        "inference": [
+            22
+        ],
+        "uk": [
+            13
+        ],
+        "think": [
+            13
+        ],
+        "processes": [
+            13
+        ],
+        "extrinsic": [
+            13
+        ],
+        "classic": [
+            13
+        ],
+        "contemp": [
+            13
+        ],
+        "educ": [
+            13
+        ],
+        "psychol": [
+            13
+        ],
+        "site": [
+            13
+        ],
+        "file": [
+            15
+        ],
+        "title": [
+            13
+        ],
+        "seventh": [
+            13
+        ],
+        "workshop": [
+            13
+        ],
+        "guided": [
+            13
+        ],
+        "freiburg": [
+            13
+        ],
+        "inception": [
+            13
+        ],
+        "curious": [
+            13
+        ],
+        "networks": [
+            22
+        ],
+        "singapore": [
+            13
+        ],
+        "helplessness": [
+            13
+        ],
+        "depression": [
+            13
+        ],
+        "ork": [
+            13
+        ],
+        "wh": [
+            13,
+            22
+        ],
+        "freeman": [
+            13
+        ],
+        "times": [
+            13
+        ],
+        "books": [
+            13,
+            19
+        ],
+        "henry": [
+            13
+        ],
+        "holt": [
+            13
+        ],
+        "mathematical": [
+            22
+        ],
+        "bell": [
+            13,
+            22
+        ],
+        "tech": [
+            13
+        ],
+        "james": [
+            13
+        ],
+        "rudary": [
+            13
+        ],
+        "dynamical": [
+            13,
+            22
+        ],
+        "twentieth": [
+            13
+        ],
+        "uai": [
+            13
+        ],
+        "banff": [
+            13
+        ],
+        "seminar": [
+            13
+        ],
+        "dagstuhl": [
+            13
+        ],
+        "castle": [
+            13
+        ],
+        "july": [
+            13
+        ],
+        "iida": [
+            13
+        ],
+        "kuniyoshi": [
+            13
+        ],
+        "heidelberg": [
+            13
+        ],
+        "manual": [
+            13
+        ],
+        "cybernetics": [
+            13
+        ],
+        "smc": [
+            13
+        ],
+        "manchester": [
+            13
+        ],
+        "discovery": [
+            13
+        ],
+        "invention": [
+            13
+        ],
+        "book": [
+            13
+        ],
+        "subtitle": [
+            13
+        ],
+        "essays": [
+            13
+        ],
+        "innenwelt": [
+            13
+        ],
+        "tiere": [
+            13
+        ],
+        "entropic": [
+            13
+        ],
+        "lett": [
+            13
+        ],
+        "stroll": [
+            13
+        ],
+        "jakob": [
+            13
+        ],
+        "semiotica": [
+            13
+        ],
+        "semi": [
+            13
+        ],
+        "statement": [
+            13
+        ],
+        "declare": [
+            13,
+            19
+        ],
+        "ducte": [
+            13
+        ],
+        "commercial": [
+            13
+        ],
+        "financial": [
+            13,
+            19
+        ],
+        "construe": [
+            13
+        ],
+        "copyright": [
+            13
+        ],
+        "creative": [
+            13,
+            19
+        ],
+        "commons": [
+            13,
+            19
+        ],
+        "attribution": [
+            13,
+            19
+        ],
+        "license": [
+            13,
+            19
+        ],
+        "cc": [
+            13,
+            19
+        ],
+        "reproduction": [
+            13
+        ],
+        "forum": [
+            13
+        ],
+        "licensor": [
+            13
+        ],
+        "credit": [
+            13
+        ],
+        "cite": [
+            13
+        ],
+        "academic": [
+            13
+        ],
+        "quarter": [
+            14
+        ],
+        "market": [
+            14
+        ],
+        "analyst": [
+            14
+        ],
+        "steady": [
+            14
+        ],
+        "consumer": [
+            14
+        ],
+        "spending": [
+            14
+        ],
+        "employment": [
+            14
+        ],
+        "technological": [
+            14
+        ],
+        "god": [
+            15
+        ],
+        "scientific": [
+            15,
+            19
+        ],
+        "association": [
+            15
+        ],
+        "python": [
+            15
+        ],
+        "teachers": [
+            15
+        ],
+        "yashar": [
+            15
+        ],
+        "zavary": [
+            15
+        ],
+        "rezaie": [
+            15
+        ],
+        "mohsen": [
+            15
+        ],
+        "galibaf": [
+            15
+        ],
+        "professor": [
+            15
+        ],
+        "azadeh": [
+            15
+        ],
+        "mansoury": [
+            15
+        ],
+        "introductory": [
+            15
+        ],
+        "online": [
+            15,
+            19
+        ],
+        "store": [
+            15
+        ],
+        "platform": [
+            19
+        ],
+        "student": [
+            22
+        ],
+        "exercise": [
+            15
+        ],
+        "library": [
+            15
+        ],
+        "management": [
+            15
+        ],
+        "session": [
+            15
+        ],
+        "supplementary": [
+            19
+        ],
+        "dedicate": [
+            15
+        ],
+        "topic": [
+            15,
+            22,
+            29
+        ],
+        "aid": [
+            15
+        ],
+        "handling": [
+            15
+        ],
+        "tkinter": [
+            15
+        ],
+        "beginner": [
+            15,
+            22
+        ],
+        "individual": [
+            19,
+            22
+        ],
+        "prior": [
+            15,
+            22
+        ],
+        "programming": [
+            15,
+            19
+        ],
+        "welcome": [
+            15
+        ],
+        "join": [
+            15
+        ],
+        "software": [
+            19
+        ],
+        "hold": [
+            15
+        ],
+        "instructor": [
+            15
+        ],
+        "num": [
+            15
+        ],
+        "description": [
+            15
+        ],
+        "sign": [
+            15
+        ],
+        "print": [
+            15
+        ],
+        "string": [
+            15,
+            19
+        ],
+        "family": [
+            22
+        ],
+        "password": [
+            15
+        ],
+        "email": [
+            15
+        ],
+        "ok": [
+            15
+        ],
+        "check": [
+            15
+        ],
+        "validation": [
+            19
+        ],
+        "user": [
+            15
+        ],
+        "duplicate": [
+            15
+        ],
+        "log": [
+            29
+        ],
+        "menu": [
+            15
+        ],
+        "infinite": [
+            15
+        ],
+        "product": [
+            22
+        ],
+        "dict": [
+            15
+        ],
+        "price": [
+            15
+        ],
+        "exp": [
+            22
+        ],
+        "date": [
+            15
+        ],
+        "dictionary": [
+            15
+        ],
+        "name": [
+            15
+        ],
+        "products": [
+            15
+        ],
+        "inline": [
+            15
+        ],
+        "busy": [
+            15
+        ],
+        "const": [
+            15
+        ],
+        "tuple": [
+            15
+        ],
+        "read": [
+            15
+        ],
+        "buy": [
+            15
+        ],
+        "pay": [
+            15
+        ],
+        "data": [
+            22
+        ],
+        "math": [
+            15
+        ],
+        "gui": [
+            15
+        ],
+        "imagination": [
+            16
+        ],
+        "sports": [
+            17
+        ],
+        "bring": [
+            17,
+            19
+        ],
+        "promote": [
+            17,
+            22,
+            33
+        ],
+        "teamwork": [
+            17
+        ],
+        "entertainment": [
+            17
+        ],
+        "philosophy": [
+            18,
+            31
+        ],
+        "knowledge": [
+            18,
+            19,
+            25,
+            28
+        ],
+        "morality": [
+            18
+        ],
+        "molecular": [
+            19
+        ],
+        "robots": [
+            19
+        ],
+        "obeying": [
+            19
+        ],
+        "asimov\u02bcs": [
+            19
+        ],
+        "gal": [
+            19
+        ],
+        "kaminka": [
+            19
+        ],
+        "bar": [
+            19
+        ],
+        "ilan": [
+            19
+        ],
+        "rachel": [
+            19
+        ],
+        "spokoini": [
+            19
+        ],
+        "augmanity": [
+            19
+        ],
+        "yaniv": [
+            19
+        ],
+        "noa": [
+            19
+        ],
+        "agmon": [
+            19
+        ],
+        "ido": [
+            19
+        ],
+        "keywords": [
+            19
+        ],
+        "nanorobotic": [
+            19
+        ],
+        "dna": [
+            19
+        ],
+        "origami": [
+            19
+        ],
+        "isaac": [
+            19
+        ],
+        "fictional": [
+            19
+        ],
+        "condition": [
+            22
+        ],
+        "widely": [
+            22
+        ],
+        "impractical": [
+            19
+        ],
+        "version": [
+            19
+        ],
+        "prove": [
+            19,
+            22
+        ],
+        "spur": [
+            19
+        ],
+        "debate": [
+            19
+        ],
+        "examine": [
+            19
+        ],
+        "fabricate": [
+            19
+        ],
+        "successfully": [
+            19
+        ],
+        "population": [
+            22
+        ],
+        "appropriately": [
+            19
+        ],
+        "emulate": [
+            19
+        ],
+        "story": [
+            19
+        ],
+        "trouble": [
+            19
+        ],
+        "despite": [
+            19
+        ],
+        "adhere": [
+            19
+        ],
+        "finding": [
+            19
+        ],
+        "encode": [
+            19,
+            22
+        ],
+        "prolific": [
+            19
+        ],
+        "biochemist": [
+            19
+        ],
+        "devise": [
+            19
+        ],
+        "half": [
+            19
+        ],
+        "century": [
+            19
+        ],
+        "foreseen": [
+            19
+        ],
+        "l": [
+            22
+        ],
+        "phrase": [
+            19
+        ],
+        "contact": [
+            19
+        ],
+        "ramat": [
+            19
+        ],
+        "gan": [
+            19
+        ],
+        "israel": [
+            19
+        ],
+        "mail": [
+            19
+        ],
+        "hamada": [
+            19
+        ],
+        "rehovot": [
+            19
+        ],
+        "massachusetts": [
+            19
+        ],
+        "unported": [
+            19
+        ],
+        "download": [
+            19
+        ],
+        "guest": [
+            19
+        ],
+        "construct": [
+            19,
+            22
+        ],
+        "filter": [
+            19
+        ],
+        "bypass": [
+            19
+        ],
+        "importance": [
+            22
+        ],
+        "fi": [
+            19
+        ],
+        "plot": [
+            19,
+            22
+        ],
+        "accept": [
+            19,
+            22
+        ],
+        "roboticist": [
+            19
+        ],
+        "feasible": [
+            19,
+            22
+        ],
+        "researchinto": [
+            19
+        ],
+        "gation": [
+            19
+        ],
+        "weredevelope": [
+            19
+        ],
+        "ticular": [
+            19
+        ],
+        "building": [
+            22
+        ],
+        "toehold": [
+            19
+        ],
+        "mediate": [
+            19
+        ],
+        "strand": [
+            19
+        ],
+        "displacement": [
+            19
+        ],
+        "device": [
+            19
+        ],
+        "immobile": [
+            19
+        ],
+        "junction": [
+            19
+        ],
+        "enable": [
+            22
+        ],
+        "programmable": [
+            19
+        ],
+        "fabrication": [
+            19
+        ],
+        "nanostructure": [
+            19
+        ],
+        "assembly": [
+            19
+        ],
+        "collectively": [
+            19
+        ],
+        "aptamer": [
+            19
+        ],
+        "diverse": [
+            19
+        ],
+        "cue": [
+            19
+        ],
+        "construction": [
+            19,
+            22
+        ],
+        "fuel": [
+            19
+        ],
+        "bipedal": [
+            19
+        ],
+        "walker": [
+            19
+        ],
+        "logic": [
+            19
+        ],
+        "circuit": [
+            19
+        ],
+        "nanoscale": [
+            19
+        ],
+        "factory": [
+            19
+        ],
+        "sensing": [
+            19
+        ],
+        "tackle": [
+            19
+        ],
+        "extremely": [
+            19
+        ],
+        "macro": [
+            19
+        ],
+        "paradigm": [
+            19
+        ],
+        "translate": [
+            19
+        ],
+        "intothis": [
+            19
+        ],
+        "signal": [
+            22
+        ],
+        "anomalous": [
+            19
+        ],
+        "extracellular": [
+            19
+        ],
+        "intracellular": [
+            19
+        ],
+        "atp": [
+            19
+        ],
+        "cell": [
+            19
+        ],
+        "surface": [
+            22
+        ],
+        "expression": [
+            19,
+            31
+        ],
+        "apoptotic": [
+            19
+        ],
+        "marker": [
+            19
+        ],
+        "phosphatidylserine": [
+            19
+        ],
+        "schematic": [
+            19
+        ],
+        "diagram": [
+            19
+        ],
+        "\u02bcs": [
+            19
+        ],
+        "readily": [
+            19
+        ],
+        "accordingly": [
+            19
+        ],
+        "microrna": [
+            19
+        ],
+        "molecule": [
+            19
+        ],
+        "analogue": [
+            19
+        ],
+        "tractable": [
+            19
+        ],
+        "copy": [
+            19
+        ],
+        "profile": [
+            19
+        ],
+        "tag": [
+            19
+        ],
+        "cellular": [
+            19
+        ],
+        "source": [
+            19,
+            22
+        ],
+        "obviously": [
+            19
+        ],
+        "occur": [
+            22
+        ],
+        "release": [
+            19
+        ],
+        "halt": [
+            19
+        ],
+        "microscopic": [
+            19
+        ],
+        "macroscopic": [
+            19
+        ],
+        "infinitesimal": [
+            19
+        ],
+        "increment": [
+            19
+        ],
+        "starting": [
+            19
+        ],
+        "materials": [
+            19
+        ],
+        "anot": [
+            19
+        ],
+        "gate": [
+            19
+        ],
+        "effector": [
+            19
+        ],
+        "output": [
+            22
+        ],
+        "concentration": [
+            19
+        ],
+        "logicalnot": [
+            19
+        ],
+        "thenot": [
+            19
+        ],
+        "activate": [
+            19
+        ],
+        "expose": [
+            19
+        ],
+        "closure": [
+            19
+        ],
+        "representative": [
+            19
+        ],
+        "tem": [
+            19
+        ],
+        "cytometric": [
+            19
+        ],
+        "analysis": [
+            22
+        ],
+        "black": [
+            19
+        ],
+        "dsd": [
+            19
+        ],
+        "stringency": [
+            19
+        ],
+        "clasp": [
+            19
+        ],
+        "arm": [
+            19
+        ],
+        "hybridize": [
+            19
+        ],
+        "vary": [
+            19
+        ],
+        "kinetic": [
+            19
+        ],
+        "vdsd": [
+            19
+        ],
+        "target": [
+            22
+        ],
+        "fluorescence": [
+            19
+        ],
+        "stringent": [
+            19
+        ],
+        "inter": [
+            19
+        ],
+        "perm": [
+            19
+        ],
+        "permissive": [
+            19
+        ],
+        "fluorescently": [
+            19
+        ],
+        "antibody": [
+            19
+        ],
+        "load": [
+            19
+        ],
+        "attachment": [
+            19
+        ],
+        "antigen": [
+            19
+        ],
+        "coat": [
+            19
+        ],
+        "polystyrene": [
+            19
+        ],
+        "bead": [
+            19
+        ],
+        "interestingly": [
+            19
+        ],
+        "binary": [
+            22
+        ],
+        "geon": [
+            19
+        ],
+        "feature": [
+            22
+        ],
+        "writing": [
+            19
+        ],
+        "redesign": [
+            19
+        ],
+        "placement": [
+            19
+        ],
+        "acceptable": [
+            19
+        ],
+        "risk": [
+            22
+        ],
+        "confirm": [
+            19,
+            22
+        ],
+        "proper": [
+            19
+        ],
+        "molar": [
+            19
+        ],
+        "ratio": [
+            29
+        ],
+        "excess": [
+            19
+        ],
+        "exaggerated": [
+            19
+        ],
+        "indefinitely": [
+            19
+        ],
+        "secure": [
+            19
+        ],
+        "substrate": [
+            19
+        ],
+        "scaffold": [
+            19
+        ],
+        "tune": [
+            19
+        ],
+        "attach": [
+            19
+        ],
+        "invariably": [
+            19
+        ],
+        "exert": [
+            19
+        ],
+        "corresponding": [
+            19
+        ],
+        "fluorescent": [
+            19
+        ],
+        "microparticle": [
+            19
+        ],
+        "confirmation": [
+            19
+        ],
+        "active": [
+            19
+        ],
+        "wrong": [
+            19
+        ],
+        "staining": [
+            19
+        ],
+        "andr": [
+            19
+        ],
+        "mir": [
+            19
+        ],
+        "validate": [
+            19
+        ],
+        "incorrect": [
+            19
+        ],
+        "recreate": [
+            19
+        ],
+        "notable": [
+            19
+        ],
+        "unlike": [
+            19
+        ],
+        "protagonist": [
+            19
+        ],
+        "correctly": [
+            19
+        ],
+        "interesting": [
+            19
+        ],
+        "test": [
+            19,
+            22
+        ],
+        "nickname": [
+            19
+        ],
+        "speedy": [
+            19
+        ],
+        "send": [
+            19
+        ],
+        "fatal": [
+            19
+        ],
+        "heat": [
+            19
+        ],
+        "planet": [
+            19
+        ],
+        "mercury": [
+            19
+        ],
+        "selenium": [
+            19
+        ],
+        "operator": [
+            19
+        ],
+        "fail": [
+            19
+        ],
+        "return": [
+            22
+        ],
+        "notice": [
+            19
+        ],
+        "irregularly": [
+            19
+        ],
+        "nonsense": [
+            19
+        ],
+        "circular": [
+            19
+        ],
+        "duce": [
+            19
+        ],
+        "speedy\u02bcs": [
+            19
+        ],
+        "stick": [
+            19
+        ],
+        "equilibrium": [
+            19
+        ],
+        "selenium\u02bcs": [
+            19
+        ],
+        "leak": [
+            19
+        ],
+        "casually": [
+            19
+        ],
+        "strengthen": [
+            19
+        ],
+        "kick": [
+            19
+        ],
+        "counterbalance": [
+            19
+        ],
+        "urgency": [
+            19
+        ],
+        "strong": [
+            19
+        ],
+        "manage": [
+            19
+        ],
+        "put": [
+            19
+        ],
+        "dominating": [
+            19
+        ],
+        "terminate": [
+            19
+        ],
+        "compose": [
+            19
+        ],
+        "experimentally": [
+            19
+        ],
+        "complement": [
+            19
+        ],
+        "mimic": [
+            19
+        ],
+        "skewed": [
+            19,
+            22
+        ],
+        "decrease": [
+            19
+        ],
+        "equilibrate": [
+            19
+        ],
+        "near": [
+            22
+        ],
+        "baseline": [
+            19,
+            22
+        ],
+        "recreation": [
+            19
+        ],
+        "ysis": [
+            19
+        ],
+        "duration": [
+            19
+        ],
+        "approximately": [
+            19,
+            22
+        ],
+        "min": [
+            22
+        ],
+        "dividual": [
+            19
+        ],
+        "statistical": [
+            19
+        ],
+        "classically": [
+            19
+        ],
+        "statistically": [
+            19,
+            22
+        ],
+        "replicate": [
+            19
+        ],
+        "asimov\u02bcsl": [
+            19
+        ],
+        "spite": [
+            19
+        ],
+        "stochasticity": [
+            19
+        ],
+        "discrepancy": [
+            22
+        ],
+        "planned": [
+            19
+        ],
+        "observed": [
+            19
+        ],
+        "net": [
+            22
+        ],
+        "instance": [
+            19
+        ],
+        "healing": [
+            19
+        ],
+        "blunt": [
+            19
+        ],
+        "trauma": [
+            19
+        ],
+        "ambiguity": [
+            19
+        ],
+        "frustrating": [
+            19
+        ],
+        "size": [
+            22
+        ],
+        "decide": [
+            19
+        ],
+        "bynot": [
+            19
+        ],
+        "sit": [
+            19
+        ],
+        "elderly": [
+            19
+        ],
+        "park": [
+            19
+        ],
+        "ambulance": [
+            19
+        ],
+        "engage": [
+            19
+        ],
+        "conversation": [
+            19
+        ],
+        "infinitely": [
+            19
+        ],
+        "moment": [
+            22
+        ],
+        "answer": [
+            19
+        ],
+        "robots\u02bc": [
+            19
+        ],
+        "mix": [
+            19
+        ],
+        "surgery": [
+            19
+        ],
+        "overact": [
+            19
+        ],
+        "differently": [
+            19
+        ],
+        "trigger": [
+            19
+        ],
+        "biocompatibility": [
+            19
+        ],
+        "therapeutic": [
+            19
+        ],
+        "monitor": [
+            19
+        ],
+        "adverse": [
+            19
+        ],
+        "inherently": [
+            19
+        ],
+        "incapable": [
+            19
+        ],
+        "special": [
+            22
+        ],
+        "highlight": [
+            19
+        ],
+        "unique": [
+            19,
+            22
+        ],
+        "innate": [
+            19
+        ],
+        "entity": [
+            19
+        ],
+        "acknowledgment": [
+            19
+        ],
+        "wish": [
+            19
+        ],
+        "ittah": [
+            19
+        ],
+        "mamet": [
+            19
+        ],
+        "abu": [
+            19
+        ],
+        "horowitz": [
+            19
+        ],
+        "ben": [
+            19
+        ],
+        "ishay": [
+            19
+        ],
+        "mizrahi": [
+            19
+        ],
+        "member": [
+            19
+        ],
+        "bachelet": [
+            19
+        ],
+        "comment": [
+            19
+        ],
+        "additionally": [
+            19
+        ],
+        "george": [
+            19
+        ],
+        "church": [
+            19
+        ],
+        "port": [
+            19
+        ],
+        "leukemia": [
+            19
+        ],
+        "dation": [
+            19
+        ],
+        "lrf": [
+            19
+        ],
+        "isf": [
+            19
+        ],
+        "ushi": [
+            19
+        ],
+        "conceive": [
+            19
+        ],
+        "manuscript": [
+            19
+        ],
+        "compete": [
+            19
+        ],
+        "amir": [
+            19
+        ],
+        "computing": [
+            19,
+            34
+        ],
+        "nanotechnology": [
+            19
+        ],
+        "andersen": [
+            19
+        ],
+        "box": [
+            19
+        ],
+        "controllable": [
+            19
+        ],
+        "lid": [
+            19
+        ],
+        "bantam": [
+            19
+        ],
+        "douglas": [
+            19
+        ],
+        "nanorobot": [
+            19
+        ],
+        "targeted": [
+            19
+        ],
+        "transport": [
+            19
+        ],
+        "payload": [
+            19
+        ],
+        "ellington": [
+            19
+        ],
+        "szostak": [
+            19
+        ],
+        "vitro": [
+            19
+        ],
+        "rna": [
+            19
+        ],
+        "ligand": [
+            19
+        ],
+        "gu": [
+            19
+        ],
+        "chao": [
+            19
+        ],
+        "xiao": [
+            19
+        ],
+        "seeman": [
+            19
+        ],
+        "hierarchical": [
+            22
+        ],
+        "symmetric": [
+            22
+        ],
+        "supramolecular": [
+            19
+        ],
+        "polyhedra": [
+            19
+        ],
+        "lakin": [
+            19
+        ],
+        "youssef": [
+            19
+        ],
+        "polo": [
+            19
+        ],
+        "emmott": [
+            19
+        ],
+        "phillips": [
+            19
+        ],
+        "bioinformatics": [
+            19
+        ],
+        "m": [
+            22
+        ],
+        "u": [
+            22
+        ],
+        "j": [
+            22
+        ],
+        "nano": [
+            19
+        ],
+        "letters": [
+            19
+        ],
+        "qian": [
+            19
+        ],
+        "winfree": [
+            19
+        ],
+        "digital": [
+            19
+        ],
+        "cascade": [
+            19
+        ],
+        "rothemund": [
+            19
+        ],
+        "fold": [
+            19
+        ],
+        "seelig": [
+            19
+        ],
+        "soloveichik": [
+            19
+        ],
+        "zhang": [
+            19
+        ],
+        "enzyme": [
+            19
+        ],
+        "nucleic": [
+            19
+        ],
+        "acid": [
+            19
+        ],
+        "lattice": [
+            19
+        ],
+        "theoretical": [
+            19,
+            22
+        ],
+        "simmel": [
+            19
+        ],
+        "yurke": [
+            19
+        ],
+        "switchable": [
+            19
+        ],
+        "mechanical": [
+            19
+        ],
+        "applied": [
+            19
+        ],
+        "stojanovic": [
+            19
+        ],
+        "mitchell": [
+            19
+        ],
+        "stefanovic": [
+            19
+        ],
+        "deoxyribozyme": [
+            19
+        ],
+        "american": [
+            19
+        ],
+        "ligase": [
+            19
+        ],
+        "venkataraman": [
+            19
+        ],
+        "dirks": [
+            19
+        ],
+        "pierce": [
+            19
+        ],
+        "polymerization": [
+            19
+        ],
+        "motor": [
             19
         ],
         "power": [
+            22,
+            23
+        ],
+        "hybridization": [
             19
         ],
-        "structure": [
+        "weld": [
             19
         ],
-        "politics": [
-            20
+        "etzioni": [
+            19
         ],
-        "encompasse": [
-            20
+        "inproceeding": [
+            19
         ],
-        "tradition": [
-            20
+        "national": [
+            19
         ],
-        "art": [
+        "aaai": [
+            19
+        ],
+        "yin": [
+            19
+        ],
+        "yan": [
+            19
+        ],
+        "daniell": [
+            19
+        ],
+        "turberfield": [
+            19
+        ],
+        "reif": [
+            19
+        ],
+        "unidirectional": [
+            19
+        ],
+        "autonomously": [
+            19
+        ],
+        "angewandte": [
+            19
+        ],
+        "chemie": [
+            19
+        ],
+        "edition": [
+            19,
+            22
+        ],
+        "chemistry": [
+            19
+        ],
+        "appendix": [
+            19
+        ],
+        "bacteriophage": [
+            19
+        ],
+        "nm": [
+            19
+        ],
+        "staple": [
+            19
+        ],
+        "oligonucleotide": [
+            19
+        ],
+        "buffer": [
+            19
+        ],
+        "mm": [
+            19
+        ],
+        "tris": [
+            19
+        ],
+        "mixture": [
+            19
+        ],
+        "thermal": [
+            19
+        ],
+        "anneal": [
+            19,
+            22
+        ],
+        "ramp": [
+            19
+        ],
+        "clean": [
+            19
+        ],
+        "sequential": [
+            19
+        ],
+        "round": [
+            19
+        ],
+        "centrifugal": [
+            19
+        ],
+        "filtration": [
+            19
+        ],
+        "standard": [
+            22
+        ],
+        "kda": [
+            19
+        ],
+        "cutoff": [
+            19
+        ],
+        "column": [
+            22
+        ],
+        "spectrophotometry": [
+            19
+        ],
+        "tae": [
+            19
+        ],
+        "plemente": [
+            19
+        ],
+        "bovine": [
+            19
+        ],
+        "serum": [
+            19
+        ],
+        "albumin": [
+            19
+        ],
+        "em": [
+            19
+        ],
+        "la": [
+            19
+        ],
+        "o": [
+            19
+        ],
+        "fl": [
+            19
+        ],
+        "fmol": [
+            19
+        ],
+        "robotswere": [
+            19
+        ],
+        "theappropriate": [
+            19
+        ],
+        "bot": [
+            19
+        ],
+        "goat": [
+            19
+        ],
+        "anti": [
+            19
+        ],
+        "mouse": [
+            19
+        ],
+        "fragment": [
+            19
+        ],
+        "prepare": [
+            19
+        ],
+        "amine": [
+            19
+        ],
+        "functionalize": [
+            19
+        ],
+        "micr": [
+            19
+        ],
+        "oparticle": [
+            19
+        ],
+        "igg": [
+            19
+        ],
+        "ml": [
+            22
+        ],
+        "crosslinke": [
+            19
+        ],
+        "ethyl": [
+            19
+        ],
+        "dimethyl": [
+            19
+        ],
+        "aminopropylcarbodiimide": [
+            19
+        ],
+        "hydroxysuccinimide": [
+            19
+        ],
+        "mes": [
+            19
+        ],
+        "saline": [
+            19
+        ],
+        "buph": [
+            19
+        ],
+        "ready": [
+            19
+        ],
+        "buf": [
+            19
+        ],
+        "fer": [
+            19
+        ],
+        "exchange": [
+            19,
+            22
+        ],
+        "quench": [
+            19
+        ],
+        "nonreacting": [
+            19
+        ],
+        "isolation": [
+            19
+        ],
+        "cytometry": [
+            19
+        ],
+        "assay": [
+            19
+        ],
+        "biotin": [
+            19
+        ],
+        "fluorescentl": [
+            19
+        ],
+        "ama": [
+            19
+        ],
+        "accuri": [
+            19
+        ],
+        "cytometer": [
+            19
+        ],
+        "equip": [
+            19
+        ],
+        "solid": [
+            19,
+            22
+        ],
+        "diode": [
+            19
+        ],
+        "coarse": [
+            19
+        ],
+        "flowplus": [
+            19
+        ],
+        "fcs": [
+            19
+        ],
+        "import": [
+            22
+        ],
+        "module": [
+            19
+        ],
+        "psychology": [
             20,
-            25,
-            26
-        ],
-        "identity": [
-            20
-        ],
-        "community": [
-            20
-        ],
-        "push": [
             21
         ],
-        "boundary": [
+        "today": [
             21
         ],
-        "mission": [
+        "sustainability": [
             21
         ],
-        "mars": [
-            21
-        ],
-        "aim": [
-            21
-        ],
-        "discover": [
-            21
-        ],
-        "extraterrestrial": [
-            21
-        ],
-        "universe": [
-            21,
-            24
-        ],
-        "origin": [
-            21
-        ],
-        "agency": [
-            21
-        ],
-        "collaborate": [
-            21
-        ],
-        "globally": [
-            21
-        ],
-        "unprecedented": [
+        "mathematics": [
             22
         ],
-        "pace": [
+        "aazi": [
             22
         ],
-        "impact": [
+        "comprehensive": [
             22
         ],
-        "open": [
-            23
+        "foundations": [
+            22
         ],
-        "new": [
-            23,
-            27
+        "algebra": [
+            22
         ],
-        "frontier": [
-            23
+        "scalar": [
+            22
         ],
-        "inspire": [
-            23
+        "multiplication": [
+            22
         ],
-        "generation": [
-            23
+        "cross": [
+            22
         ],
-        "dream": [
-            23
+        "norm": [
+            22
         ],
-        "pursuit": [
-            24
+        "orthogonality": [
+            22
         ],
-        "unravel": [
-            24
+        "matrix": [
+            22
         ],
-        "mystery": [
-            24
+        "transpose": [
+            22
         ],
-        "creativity": [
-            25,
-            26
+        "determinant": [
+            22
         ],
-        "fulfilling": [
-            25
+        "inverse": [
+            22
         ],
-        "happy": [
-            25
+        "cramer": [
+            22
         ],
-        "reflect": [
-            26
+        "square": [
+            22
         ],
-        "emotion": [
-            26
+        "triangular": [
+            22
         ],
-        "expression": [
-            26
-        ],
-        "sport": [
-            27
-        ],
-        "solve": [
-            27
-        ],
-        "problem": [
-            27,
+        "rank": [
             29
         ],
-        "create": [
-            27
+        "nullity": [
+            22
         ],
-        "opportunity": [
-            27
+        "theorem": [
+            22
         ],
-        "electric": [
-            28
+        "hadamard": [
+            22
         ],
-        "vehicle": [
-            28
+        "elementwise": [
+            22
         ],
-        "evs": [
-            28
+        "outer": [
+            22
         ],
-        "gain": [
-            28
+        "frobenius": [
+            22
         ],
-        "popularity": [
-            28
+        "inequality": [
+            22
         ],
-        "environmental": [
-            28
+        "kronecker": [
+            22
         ],
-        "battery": [
-            28
+        "statistics": [
+            22
         ],
-        "automobile": [
-            28
+        "conditional": [
+            22
         ],
-        "manufacturer": [
-            28
+        "bayes": [
+            22
         ],
-        "invest": [
-            28
+        "deviation": [
+            22
         ],
-        "ev": [
-            28
+        "covariance": [
+            22
         ],
-        "reduce": [
-            28
+        "correlation": [
+            22
         ],
-        "footprint": [
-            28
+        "mass": [
+            22
         ],
-        "sustainable": [
-            28
+        "pmf": [
+            22
         ],
-        "transportation": [
-            28
+        "density": [
+            22
         ],
-        "quantum": [
+        "pdf": [
+            22
+        ],
+        "cdf": [
+            22
+        ],
+        "cumulative": [
+            22,
             29
         ],
-        "computing": [
+        "iterated": [
+            22
+        ],
+        "expectations": [
+            22
+        ],
+        "marginal": [
+            22
+        ],
+        "skewness": [
+            22
+        ],
+        "kurtosis": [
+            22
+        ],
+        "calculus": [
+            22
+        ],
+        "derivative": [
+            22
+        ],
+        "quotient": [
+            22
+        ],
+        "chain": [
+            22
+        ],
+        "logarithmic": [
+            22
+        ],
+        "exponential": [
+            22
+        ],
+        "integral": [
+            22
+        ],
+        "derivatives": [
+            22
+        ],
+        "hessian": [
+            22
+        ],
+        "directional": [
+            22
+        ],
+        "higher": [
+            22
+        ],
+        "implicit": [
+            22
+        ],
+        "differentiation": [
+            22
+        ],
+        "taylor": [
+            22
+        ],
+        "series": [
+            22
+        ],
+        "expansion": [
+            22
+        ],
+        "jacobian": [
+            22
+        ],
+        "arc": [
+            22
+        ],
+        "curve": [
+            22
+        ],
+        "curvature": [
+            22
+        ],
+        "parts": [
+            22
+        ],
+        "revolution": [
+            22
+        ],
+        "disk": [
+            22
+        ],
+        "curl": [
+            22
+        ],
+        "descent": [
+            22
+        ],
+        "stochastic": [
+            22
+        ],
+        "sgd": [
+            22
+        ],
+        "momentum": [
+            22
+        ],
+        "nesterov": [
+            22
+        ],
+        "accelerated": [
+            22
+        ],
+        "nag": [
+            22
+        ],
+        "rmsprop": [
+            22
+        ],
+        "adam": [
+            22
+        ],
+        "regularized": [
+            22
+        ],
+        "decay": [
+            22
+        ],
+        "clipping": [
+            22
+        ],
+        "minibatch": [
+            22
+        ],
+        "elastic": [
+            22
+        ],
+        "regularization": [
+            22
+        ],
+        "adagrad": [
+            22
+        ],
+        "adamw": [
+            22
+        ],
+        "heavy": [
+            22
+        ],
+        "ball": [
+            22
+        ],
+        "projection": [
+            22
+        ],
+        "projected": [
+            22
+        ],
+        "newton": [
+            22
+        ],
+        "proximal": [
+            22
+        ],
+        "ista": [
+            22
+        ],
+        "augmented": [
+            22
+        ],
+        "lagrangian": [
+            22
+        ],
+        "dual": [
+            22
+        ],
+        "ascent": [
+            22
+        ],
+        "region": [
+            22
+        ],
+        "annealing": [
+            22
+        ],
+        "ordinary": [
+            22
+        ],
+        "squares": [
+            22
+        ],
+        "ols": [
+            22
+        ],
+        "squared": [
+            22
+        ],
+        "mse": [
+            22
+        ],
+        "coefficient": [
+            22
+        ],
+        "absolute": [
+            22
+        ],
+        "mae": [
+            22
+        ],
+        "weighted": [
+            22
+        ],
+        "wls": [
+            22
+        ],
+        "polynomial": [
+            22
+        ],
+        "likelihood": [
+            22,
             29
         ],
-        "leverage": [
+        "estimation": [
+            22
+        ],
+        "minimization": [
+            22
+        ],
+        "logistic": [
+            22
+        ],
+        "hinge": [
+            22
+        ],
+        "svm": [
+            22
+        ],
+        "lasso": [
+            22
+        ],
+        "ridge": [
+            22
+        ],
+        "binomial": [
+            22
+        ],
+        "poisson": [
+            22
+        ],
+        "gamma": [
+            22
+        ],
+        "probit": [
+            22
+        ],
+        "multinomial": [
+            22
+        ],
+        "quantile": [
+            22
+        ],
+        "huber": [
+            22
+        ],
+        "perceptron": [
+            22
+        ],
+        "update": [
+            22
+        ],
+        "sigmoid": [
+            22
+        ],
+        "activation": [
+            22
+        ],
+        "tanh": [
+            22
+        ],
+        "relu": [
+            22
+        ],
+        "heaviside": [
+            22
+        ],
+        "leaky": [
+            22
+        ],
+        "elu": [
+            22
+        ],
+        "softmax": [
+            22
+        ],
+        "backpropagation": [
+            22
+        ],
+        "weights": [
+            22
+        ],
+        "batch": [
+            22
+        ],
+        "normalization": [
+            22
+        ],
+        "dropout": [
+            22
+        ],
+        "updates": [
+            22
+        ],
+        "xavier": [
+            22
+        ],
+        "glorot": [
+            22
+        ],
+        "initialization": [
+            22
+        ],
+        "swish": [
+            22
+        ],
+        "maxout": [
+            22
+        ],
+        "sparse": [
+            22
+        ],
+        "categorical": [
+            22
+        ],
+        "cosine": [
+            22
+        ],
+        "similarity": [
+            22
+        ],
+        "clustering": [
+            22
+        ],
+        "metric": [
+            22
+        ],
+        "manhattan": [
+            22
+        ],
+        "jaccard": [
+            22
+        ],
+        "k": [
+            22
+        ],
+        "means": [
+            22
+        ],
+        "centroid": [
+            22
+        ],
+        "elbow": [
+            22
+        ],
+        "medoid": [
+            22
+        ],
+        "fuzzy": [
+            22
+        ],
+        "silhouette": [
+            22
+        ],
+        "score": [
+            22,
             29
         ],
-        "principle": [
+        "dendrogram": [
+            22
+        ],
+        "ward": [
+            22
+        ],
+        "linkage": [
+            22
+        ],
+        "minimum": [
+            22
+        ],
+        "spanning": [
+            22
+        ],
+        "tree": [
+            22
+        ],
+        "dbscan": [
+            22
+        ],
+        "cohesion": [
+            22
+        ],
+        "soft": [
+            22
+        ],
+        "membership": [
+            22
+        ],
+        "mutual": [
+            22
+        ],
+        "adjusted": [
+            22
+        ],
+        "rand": [
+            22
+        ],
+        "ari": [
+            22
+        ],
+        "normalize": [
+            22
+        ],
+        "nmi": [
+            22
+        ],
+        "dimensionality": [
+            22
+        ],
+        "principal": [
+            22
+        ],
+        "pca": [
+            22
+        ],
+        "eigen": [
+            22
+        ],
+        "decomposition": [
+            22
+        ],
+        "svd": [
+            22
+        ],
+        "singular": [
+            22
+        ],
+        "reconstruction": [
+            22
+        ],
+        "explained": [
+            22
+        ],
+        "isomap": [
+            22
+        ],
+        "mds": [
+            22
+        ],
+        "stress": [
+            22
+        ],
+        "multidimensional": [
+            22
+        ],
+        "scaling": [
+            22
+        ],
+        "nmf": [
+            22
+        ],
+        "factorization": [
+            22
+        ],
+        "ica": [
+            22
+        ],
+        "kernel": [
+            22
+        ],
+        "transformation": [
+            22
+        ],
+        "lda": [
+            22
+        ],
+        "fisher": [
+            22
+        ],
+        "rpca": [
+            22
+        ],
+        "lle": [
+            22
+        ],
+        "laplacian": [
+            22
+        ],
+        "eigenmaps": [
+            22
+        ],
+        "autoencoder": [
+            22
+        ],
+        "latent": [
+            22
+        ],
+        "sne": [
+            22
+        ],
+        "umap": [
+            22
+        ],
+        "uniform": [
+            22
+        ],
+        "manifold": [
+            22
+        ],
+        "bernoulli": [
+            22
+        ],
+        "normal": [
+            22
+        ],
+        "geometric": [
+            22
+        ],
+        "hypergeometric": [
+            22
+        ],
+        "beta": [
+            22
+        ],
+        "chi": [
+            22
+        ],
+        "laplace": [
+            22
+        ],
+        "rayleigh": [
+            22
+        ],
+        "arcsine": [
+            22
+        ],
+        "cauchy": [
+            22
+        ],
+        "weibull": [
+            22
+        ],
+        "pareto": [
+            22
+        ],
+        "discount": [
+            22
+        ],
+        "bellman": [
+            22
+        ],
+        "equation": [
+            22
+        ],
+        "td": [
+            22
+        ],
+        "improvement": [
+            22
+        ],
+        "q": [
+            22
+        ],
+        "sarsa": [
+            22
+        ],
+        "iteration": [
+            22
+        ],
+        "critic": [
+            22
+        ],
+        "\u03b3": [
+            22
+        ],
+        "rl": [
+            22
+        ],
+        "actor": [
+            22
+        ],
+        "sampling": [
+            22
+        ],
+        "sac": [
+            22
+        ],
+        "trpo": [
+            22
+        ],
+        "chapter": [
+            22
+        ],
+        "un": [
+            22
+        ],
+        "vn": [
+            22
+        ],
+        "wise": [
+            22
+        ],
+        "commonly": [
+            22
+        ],
+        "numpy": [
+            22
+        ],
+        "np": [
+            22
+        ],
+        "\u03b1v": [
+            22
+        ],
+        "\u03b1": [
+            22
+        ],
+        "\u03b1vn": [
+            22
+        ],
+        "magnitude": [
+            22
+        ],
+        "alpha": [
+            22
+        ],
+        "nx": [
+            22
+        ],
+        "uivi": [
+            22
+        ],
+        "unvn": [
+            22
+        ],
+        "perpendicular": [
+            22
+        ],
+        "tor": [
+            22
+        ],
+        "graphic": [
+            22
+        ],
+        "vuut": [
+            22
+        ],
+        "orthogonal": [
+            22
+        ],
+        "dition": [
+            22
+        ],
+        "element": [
+            22
+        ],
+        "aggregate": [
+            22
+        ],
+        "\u03b1a": [
+            22
+        ],
+        "ax": [
+            22
+        ],
+        "formation": [
+            22
+        ],
+        "x": [
+            22
+        ],
+        "ij": [
+            22
+        ],
+        "aikbkj": [
+            22
+        ],
+        "composition": [
+            22
+        ],
+        "flip": [
+            22
+        ],
+        "diagonal": [
+            22
+        ],
+        "row": [
+            22
+        ],
+        "invertibility": [
+            22
+        ],
+        "reverse": [
+            22
+        ],
+        "xi": [
+            22
+        ],
+        "equationsax": [
+            22
+        ],
+        "replace": [
+            22
+        ],
+        "generalize": [
+            22
+        ],
+        "mension": [
+            22
+        ],
+        "adjugate": [
+            22
+        ],
+        "cofactor": [
+            22
+        ],
+        "aii": [
+            22
+        ],
+        "uct": [
+            22
+        ],
+        "simplifie": [
+            22
+        ],
+        "dimension": [
+            22
+        ],
+        "null": [
+            22
+        ],
+        "equal": [
+            22
+        ],
+        "gating": [
+            22
+        ],
+        "umvn": [
+            22
+        ],
+        "multiply": [
+            22
+        ],
+        "tensor": [
+            22
+        ],
+        "mx": [
+            22
+        ],
+        "fro": [
+            22
+        ],
+        "bound": [
+            22
+        ],
+        "numerical": [
+            22
+        ],
+        "characterize": [
+            22
+        ],
+        "invariant": [
+            22
+        ],
+        "cyclic": [
+            22
+        ],
+        "mutation": [
+            22
+        ],
+        "g": [
+            22
+        ],
+        "bg": [
+            22
+        ],
+        "af": [
+            22
+        ],
+        "bh": [
+            22
+        ],
+        "ce": [
+            22
+        ],
+        "dg": [
+            22
+        ],
+        "cf": [
+            22
+        ],
+        "dh": [
+            22
+        ],
+        "submatrix": [
+            22
+        ],
+        "partition": [
+            22
+        ],
+        "entirety": [
+            22
+        ],
+        "quantifie": [
+            22
+        ],
+        "occurring": [
+            22
+        ],
+        "eventb": [
+            22
+        ],
+        "eventa": [
+            22
+        ],
+        "bi": [
+            22
+        ],
+        "dependency": [
+            22
+        ],
+        "baye": [
+            22
+        ],
+        "reversal": [
+            22
+        ],
+        "evidence": [
+            22
+        ],
+        "statistic": [
+            22
+        ],
+        "assess": [
+            22
+        ],
+        "performance": [
+            22
+        ],
+        "root": [
+            22
+        ],
+        "dispersion": [
+            22
+        ],
+        "variability": [
+            22
+        ],
+        "assessment": [
+            22
+        ],
+        "positive": [
+            22,
             29
         ],
-        "mechanic": [
+        "strength": [
+            22
+        ],
+        "cov": [
+            22
+        ],
+        "pi": [
+            22
+        ],
+        "foundational": [
+            22
+        ],
+        "def": [
+            22
+        ],
+        "z": [
+            22
+        ],
+        "bilistic": [
+            22
+        ],
+        "iterate": [
+            22
+        ],
+        "ofx": [
+            22
+        ],
+        "suppose": [
+            22
+        ],
+        "ming": [
+            22
+        ],
+        "integrating": [
+            22
+        ],
+        "asymmetry": [
+            22
+        ],
+        "skew": [
+            22
+        ],
+        "tail": [
+            22
+        ],
+        "\u00b5": [
+            22
+        ],
+        "\u03c3": [
+            22
+        ],
+        "mu": [
+            22
+        ],
+        "sigma": [
+            22
+        ],
+        "tailedness": [
+            22
+        ],
+        "fourth": [
+            22
+        ],
+        "\u02c6y": [
+            22
+        ],
+        "yi": [
+            22
+        ],
+        "\u02c6yi": [
+            22
+        ],
+        "classification": [
+            22
+        ],
+        "dissimilarity": [
+            22
+        ],
+        "\u02c6": [
+            22
+        ],
+        "label": [
+            22
+        ],
+        "bce": [
+            22
+        ],
+        "formula": [
+            22,
             29
         ],
-        "perform": [
-            29
+        "lim": [
+            22
         ],
-        "calculation": [
-            29
+        "instantaneous": [
+            22
+        ],
+        "dxxn": [
+            22
+        ],
+        "monomial": [
+            22
+        ],
+        "handle": [
+            22
+        ],
+        "multiplicative": [
+            22
+        ],
+        "dx": [
+            22
+        ],
+        "division": [
+            22
+        ],
+        "ex": [
+            22
+        ],
+        "composite": [
+            22
+        ],
+        "extensively": [
+            22
+        ],
+        "logarithm": [
+            22
+        ],
+        "reciprocal": [
+            22
+        ],
+        "frequently": [
+            22
+        ],
+        "dxex": [
+            22
+        ],
+        "xndx": [
+            22
+        ],
+        "antiderivative": [
+            22
+        ],
+        "tegration": [
+            22
+        ],
+        "quad": [
+            22
+        ],
+        "multivariable": [
+            22
+        ],
+        "constant": [
+            22
+        ],
+        "var": [
+            22
+        ],
+        "args": [
+            22
+        ],
+        "steep": [
+            22
+        ],
+        "grad": [
+            22
+        ],
+        "arg": [
+            22
+        ],
+        "convergence": [
+            22
+        ],
+        "hess": [
+            22
+        ],
+        "mixed": [
+            22
+        ],
+        "satisfy": [
+            22
+        ],
+        "equality": [
+            22
+        ],
+        "fxy": [
+            22
+        ],
+        "fyx": [
+            22
+        ],
+        "smoothness": [
+            22
+        ],
+        "dt": [
+            22
+        ],
+        "dxi": [
+            22
+        ],
+        "dy": [
+            22
+        ],
+        "geometry": [
+            22
+        ],
+        "integrand": [
+            22
+        ],
+        "lambda": [
+            22
+        ],
+        "sharply": [
+            22
+        ],
+        "bend": [
+            22
+        ],
+        "numerator": [
+            22
+        ],
+        "denominator": [
+            22
+        ],
+        "uv": [
+            22
+        ],
+        "xexdx": [
+            22
+        ],
+        "xex": [
+            22
+        ],
+        "exdx": [
+            22
+        ],
+        "sympy": [
+            22
+        ],
+        "\u03c0": [
+            22
+        ],
+        "slice": [
+            22
+        ],
+        "axis": [
+            22
+        ],
+        "rotation": [
+            22
+        ],
+        "physic": [
+            22
+        ],
+        "revolve": [
+            22
+        ],
+        "zz": [
+            22
+        ],
+        "da": [
+            22
+        ],
+        "flux": [
+            22
+        ],
+        "dblquad": [
+            22
+        ],
+        "gx": [
+            22
+        ],
+        "gy": [
+            22
+        ],
+        "div": [
+            22
+        ],
+        "sink": [
+            22
+        ],
+        "fluid": [
+            22
+        ],
+        "electromagnetism": [
+            22
+        ],
+        "diff": [
+            22
+        ],
+        "circulation": [
+            22
+        ],
+        "xy": [
+            22
+        ],
+        "iteratively": [
+            22
+        ],
+        "minimize": [
+            22
+        ],
+        "\u03b7": [
+            22
+        ],
+        "theta": [
+            22
+        ],
+        "eta": [
+            22
+        ],
+        "eter": [
+            22
+        ],
+        "dataset": [
+            22
+        ],
+        "\u03b8": [
+            22
         ],
         "exponentially": [
+            22,
+            34
+        ],
+        "stability": [
+            22
+        ],
+        "\u03b2": [
+            22
+        ],
+        "velocity": [
+            22
+        ],
+        "smooth": [
             29
         ],
-        "fast": [
+        "oscillation": [
+            22
+        ],
+        "head": [
+            22
+        ],
+        "anticipate": [
+            22
+        ],
+        "overshooting": [
+            22
+        ],
+        "oscillatory": [
+            22
+        ],
+        "lookahead": [
+            22
+        ],
+        "\u03f5": [
+            22
+        ],
+        "convex": [
+            22
+        ],
+        "epsilon": [
+            22
+        ],
+        "\u02c6m": [
+            22
+        ],
+        "\u03b2t": [
+            22
+        ],
+        "\u02c6s": [
+            22
+        ],
+        "smoothing": [
+            22
+        ],
+        "popular": [
+            22
+        ],
+        "penalize": [
+            22
+        ],
+        "complexity": [
+            22
+        ],
+        "overfitte": [
+            22
+        ],
+        "mon": [
+            22
+        ],
+        "regularizer": [
+            22
+        ],
+        "reg": [
+            22
+        ],
+        "lam": [
+            22
+        ],
+        "\u03b7t": [
+            22
+        ],
+        "\u03b3t": [
+            22
+        ],
+        "\u03c4": [
+            22
+        ],
+        "explode": [
+            22
+        ],
+        "clip": [
+            22
+        ],
+        "tau": [
+            22
+        ],
+        "false": [
+            22
+        ],
+        "cycling": [
+            22
+        ],
+        "dimensional": [
+            22
+        ],
+        "alternately": [
+            22
+        ],
+        "sparsity": [
+            22
+        ],
+        "multicollinearity": [
+            22
+        ],
+        "tx": [
+            22
+        ],
+        "adaptively": [
+            22
+        ],
+        "decouple": [
+            22
+        ],
+        "generalization": [
+            22
+        ],
+        "\u03bb": [
+            22
+        ],
+        "regularize": [
+            22
+        ],
+        "alongside": [
+            22
+        ],
+        "inertial": [
+            22
+        ],
+        "vergence": [
+            22
+        ],
+        "accelerate": [
+            22
+        ],
+        "constrained": [
+            22
+        ],
+        "especially": [
+            22
+        ],
+        "quadratic": [
+            22
+        ],
+        "nonsmooth": [
+            22
+        ],
+        "thresholding": [
+            22
+        ],
+        "prox": [
+            22
+        ],
+        "\u03bb\u03b7": [
+            22
+        ],
+        "iterative": [
+            22
+        ],
+        "shrinkage": [
+            22
+        ],
+        "olde": [
+            22
+        ],
+        "\u03b8i": [
+            22
+        ],
+        "nalize": [
+            22
+        ],
+        "constraint": [
+            22
+        ],
+        "violation": [
+            22
+        ],
+        "alternate": [
+            22
+        ],
+        "lagrange": [
+            22
+        ],
+        "multiplier": [
+            22
+        ],
+        "restrict": [
+            22
+        ],
+        "valid": [
+            22,
             29
         ],
-        "classical": [
+        "delta": [
+            22
+        ],
+        "straint": [
+            22
+        ],
+        "inspire": [
+            22,
+            27
+        ],
+        "metallurgy": [
+            22
+        ],
+        "probabilistically": [
+            22
+        ],
+        "minima": [
+            22
+        ],
+        "cool": [
+            22
+        ],
+        "x\u03b2": [
+            22
+        ],
+        "xt": [
+            22
+        ],
+        "residual": [
+            22
+        ],
+        "nxt": [
+            22
+        ],
+        "pn": [
+            22
+        ],
+        "proportion": [
+            22
+        ],
+        "explain": [
+            22,
             29
         ],
-        "computer": [
+        "predictor": [
+            22
+        ],
+        "overfitting": [
+            22
+        ],
+        "outlier": [
+            22
+        ],
+        "wy": [
+            22
+        ],
+        "eroscedasticity": [
+            22
+        ],
+        "\u03b2nxn": [
+            22
+        ],
+        "poly": [
+            22
+        ],
+        "aebx": [
+            22
+        ],
+        "param": [
+            22
+        ],
+        "\u02c6\u03b2": [
+            22
+        ],
+        "mle": [
+            22
+        ],
+        "\u02c6\u03b8": [
+            22
+        ],
+        "erm": [
+            22
+        ],
+        "kx": [
+            22
+        ],
+        "yij": [
+            22
+        ],
+        "hot": [
+            22
+        ],
+        "encoded": [
+            22
+        ],
+        "margin": [
+            22
+        ],
+        "svms": [
+            22
+        ],
+        "shrink": [
+            22
+        ],
+        "\u02c6\u00b5": [
+            22
+        ],
+        "overdispersion": [
+            22
+        ],
+        "generalized": [
+            22
+        ],
+        "overdisperse": [
+            22
+        ],
+        "glm": [
+            22
+        ],
+        "negativebinomial": [
+            22
+        ],
+        "ex\u03b2": [
+            22
+        ],
+        "\u03d5": [
+            22
+        ],
+        "\u02c6\u00b5i": [
+            22
+        ],
+        "insurance": [
+            22
+        ],
+        "claim": [
+            22
+        ],
+        "ex\u03b2k": [
+            22
+        ],
+        "pk": [
+            22
+        ],
+        "ex\u03b2j": [
+            22
+        ],
+        "classify": [
+            22
+        ],
+        "logisticregression": [
+            22
+        ],
+        "\u03c1\u03c4": [
+            22
+        ],
+        "\u03c1": [
+            22
+        ],
+        "percentile": [
+            22
+        ],
+        "quantreg": [
+            22
+        ],
+        "\u03b4": [
+            22
+        ],
+        "linearly": [
+            22
+        ],
+        "trix": [
+            22
+        ],
+        "ez": [
+            22
+        ],
+        "linearity": [
+            22
+        ],
+        "\u03b1z": [
+            22
+        ],
+        "dead": [
+            22
+        ],
+        "neuron": [
+            22
+        ],
+        "ezi": [
+            22
+        ],
+        "ezj": [
+            22
+        ],
+        "\u03b4jai": [
+            22
+        ],
+        "spect": [
+            22
+        ],
+        "\u02c6x": [
+            22
+        ],
+        "\u03b3\u02c6x": [
+            22
+        ],
+        "covariate": [
+            22
+        ],
+        "shift": [
+            22
+        ],
+        "\u02c6ai": [
+            22
+        ],
+        "randomly": [
+            22
+        ],
+        "fraction": [
+            22
+        ],
+        "mask": [
+            22
+        ],
+        "efficiently": [
+            22
+        ],
+        "nin": [
+            22
+        ],
+        "nout": [
+            22
+        ],
+        "proportional": [
+            22
+        ],
+        "imate": [
+            22
+        ],
+        "monotonic": [
+            22
+        ],
+        "zi": [
+            22
+        ],
+        "learnable": [
+            22
+        ],
+        "piecewise": [
+            22
+        ],
+        "rectly": [
+            22
+        ],
+        "angle": [
+            22
+        ],
+        "embed": [
+            22
+        ],
+        "ui": [
+            22
+        ],
+        "straight": [
+            22
+        ],
+        "cluster": [
+            22
+        ],
+        "neighbor": [
+            22
+        ],
+        "od": [
+            22
+        ],
+        "resemble": [
+            22
+        ],
+        "city": [
+            22
+        ],
+        "orientation": [
+            22
+        ],
+        "intersection": [
+            22
+        ],
+        "tween": [
+            22
+        ],
+        "\u00b5i": [
+            22
+        ],
+        "xj": [
+            22
+        ],
+        "fye": [
+            22
+        ],
+        "versus": [
+            22,
             29
+        ],
+        "kmean": [
+            22
+        ],
+        "medoids": [
+            22
+        ],
+        "mi": [
+            22
+        ],
+        "cx": [
+            22
+        ],
+        "um": [
+            22
+        ],
+        "uij": [
+            22
+        ],
+        "intra": [
+            22
+        ],
+        "nearest": [
+            22
+        ],
+        "quality": [
+            22
+        ],
+        "visually": [
+            22
+        ],
+        "merge": [
+            22
+        ],
+        "compact": [
+            22
+        ],
+        "pair": [
+            22
+        ],
+        "mst": [
+            22
+        ],
+        "span": [
+            22
+        ],
+        "imum": [
+            22
+        ],
+        "edge": [
+            22
+        ],
+        "dense": [
+            22
+        ],
+        "minpts": [
+            22
+        ],
+        "xn": [
+            22
+        ],
+        "compactness": [
+            22
+        ],
+        "pc": [
+            22
+        ],
+        "belong": [
+            22
+        ],
+        "keepdim": [
+            22
+        ],
+        "pij": [
+            22
+        ],
+        "assignment": [
+            22
+        ],
+        "pipj": [
+            22
+        ],
+        "precision": [
+            22
+        ],
+        "recall": [
+            22
+        ],
+        "sion": [
+            22
+        ],
+        "expected": [
+            22
+        ],
+        "ity": [
+            22
+        ],
+        "wt": [
+            22
+        ],
+        "sw": [
+            22
+        ],
+        "ance": [
+            22
+        ],
+        "pairwise": [
+            22
+        ],
+        "rowvar": [
+            22
+        ],
+        "\u03bbw": [
+            22
+        ],
+        "eigenvector": [
+            22
+        ],
+        "eigenvalue": [
+            22
+        ],
+        "u\u03c3vt": [
+            22
+        ],
+        "factorize": [
+            22
+        ],
+        "sionality": [
+            22
+        ],
+        "truncate": [
+            22
+        ],
+        "vt": [
+            22
+        ],
+        "zwt": [
+            22
+        ],
+        "\u03bbipn": [
+            22
+        ],
+        "\u03bbj": [
+            22
+        ],
+        "xproj": [
+            22
+        ],
+        "xr": [
+            22
+        ],
+        "gaussianrandomprojection": [
+            22
+        ],
+        "rp": [
+            22
+        ],
+        "dij": [
+            22
+        ],
+        "shortest": [
+            22
+        ],
+        "geodesic": [
+            22
+        ],
+        "\u02c6dij": [
+            22
+        ],
+        "xmds": [
+            22
+        ],
+        "wx": [
+            22
+        ],
+        "gaussianity": [
+            22
+        ],
+        "fastica": [
+            22
+        ],
+        "z\u03bb": [
+            22
+        ],
+        "\u03c8": [
+            22
+        ],
+        "plus": [
+            22
+        ],
+        "factoranalysis": [
+            22
+        ],
+        "fa": [
+            22
+        ],
+        "k\u03b1": [
+            22
+        ],
+        "\u03bb\u03b1": [
+            22
+        ],
+        "kernelpca": [
+            22
+        ],
+        "kpca": [
+            22
+        ],
+        "sbw": [
+            22
+        ],
+        "lineardiscriminantanalysis": [
+            22
+        ],
+        "decompose": [
+            22
+        ],
+        "alignment": [
+            22
+        ],
+        "embedding": [
+            22
+        ],
+        "locallylinearembedde": [
+            22
+        ],
+        "hood": [
+            22
+        ],
+        "spectralembedding": [
+            22
+        ],
+        "autoencoders": [
+            22
+        ],
+        "compress": [
+            22
+        ],
+        "reconstruct": [
+            22
+        ],
+        "decode": [
+            22
+        ],
+        "downstream": [
+            22
+        ],
+        "interpretability": [
+            22
+        ],
+        "sparsepca": [
+            22
+        ],
+        "spca": [
+            22
+        ],
+        "qij": [
+            22
+        ],
+        "kullback": [
+            22
+        ],
+        "leibler": [
+            22
+        ],
+        "tsne": [
+            22
+        ],
+        "ding": [
+            22
+        ],
+        "align": [
+            22
+        ],
+        "wkl": [
+            22
+        ],
+        "success": [
+            22
+        ],
+        "prob": [
+            22
+        ],
+        "pendent": [
+            22
+        ],
+        "trial": [
+            22
+        ],
+        "binom": [
+            22
+        ],
+        "terval": [
+            22
+        ],
+        "crete": [
+            22
+        ],
+        "randint": [
+            22
+        ],
+        "expon": [
+            22
+        ],
+        "geom": [
+            22
+        ],
+        "hypergeom": [
+            22
+        ],
+        "wait": [
+            22
+        ],
+        "xk": [
+            22
+        ],
+        "kk": [
+            22
+        ],
+        "pkk": [
+            22
+        ],
+        "category": [
+            22
+        ],
+        "dent": [
+            22
+        ],
+        "testing": [
+            22
+        ],
+        "\u03bd": [
+            22
+        ],
+        "anova": [
+            22
+        ],
+        "tribution": [
+            22
+        ],
+        "mode": [
+            22
+        ],
+        "triang": [
+            22
+        ],
+        "x\u03c3": [
+            22
+        ],
+        "lognorm": [
+            22
+        ],
+        "middle": [
+            22
+        ],
+        "betabinom": [
+            22
+        ],
+        "\u03c0\u03b3": [
+            22
+        ],
+        "lifetime": [
+            22
+        ],
+        "\u03b1x\u03b1": [
+            22
+        ],
+        "xm": [
+            22
+        ],
+        "wealth": [
+            22
+        ],
+        "phenomena": [
+            22
+        ],
+        "x\u03c0\u03b3": [
+            22
+        ],
+        "ln": [
+            22
+        ],
+        "gt": [
+            22
+        ],
+        "ture": [
+            22
+        ],
+        "\u03b3v": [
+            22
+        ],
+        "afterward": [
+            22
+        ],
+        "episode": [
+            22
+        ],
+        "mate": [
+            22
+        ],
+        "uous": [
+            22
+        ],
+        "prioritize": [
+            22
+        ],
+        "eligibility": [
+            22
+        ],
+        "traces": [
+            22
+        ],
+        "\u03b1\u03b4tet": [
+            22
+        ],
+        "\u03b4t": [
+            22
+        ],
+        "overestimation": [
+            22
+        ],
+        "\u02c6g": [
+            22
+        ],
+        "es": [
+            22
+        ],
+        "encourage": [
+            22
+        ],
+        "tropy": [
+            22
+        ],
+        "e\u03c0\u03b8": [
+            22
+        ],
+        "livelihood": [
+            23
+        ],
+        "billion": [
+            23
+        ],
+        "politics": [
+            24
+        ],
+        "encompasse": [
+            24
+        ],
+        "tradition": [
+            24
+        ],
+        "art": [
+            24,
+            30,
+            31
+        ],
+        "identity": [
+            24
+        ],
+        "community": [
+            24
+        ],
+        "mars": [
+            25
+        ],
+        "discover": [
+            25
+        ],
+        "extraterrestrial": [
+            25
+        ],
+        "universe": [
+            25,
+            28
+        ],
+        "origin": [
+            25
+        ],
+        "collaborate": [
+            25
+        ],
+        "globally": [
+            25
+        ],
+        "unprecedented": [
+            26
+        ],
+        "pace": [
+            26
+        ],
+        "frontier": [
+            27
+        ],
+        "dream": [
+            27
+        ],
+        "pursuit": [
+            28
+        ],
+        "unravel": [
+            28
+        ],
+        "mystery": [
+            28
+        ],
+        "ranking": [
+            29
+        ],
+        "retrieval": [
+            29
+        ],
+        "document": [
+            29
+        ],
+        "structured": [
+            29
+        ],
+        "slide": [
+            29
+        ],
+        "query": [
+            29
+        ],
+        "frequency": [
+            29
+        ],
+        "relevance": [
+            29
+        ],
+        "odd": [
+            29
+        ],
+        "odds": [
+            29
+        ],
+        "appearance": [
+            29
+        ],
+        "irrelevance": [
+            29
+        ],
+        "rsv": [
+            29
+        ],
+        "status": [
+            29
+        ],
+        "probabilities": [
+            29
+        ],
+        "miss": [
+            29
+        ],
+        "creativity": [
+            30,
+            31
+        ],
+        "fulfilling": [
+            30
+        ],
+        "happy": [
+            30
+        ],
+        "emotion": [
+            31
+        ],
+        "sport": [
+            32
+        ],
+        "opportunity": [
+            32
+        ],
+        "electric": [
+            33
+        ],
+        "evs": [
+            33
+        ],
+        "popularity": [
+            33
+        ],
+        "automobile": [
+            33
+        ],
+        "manufacturer": [
+            33
+        ],
+        "ev": [
+            33
+        ],
+        "footprint": [
+            33
+        ],
+        "sustainable": [
+            33
+        ],
+        "transportation": [
+            33
+        ],
+        "quantum": [
+            34
+        ],
+        "leverage": [
+            34
         ],
         "researcher": [
-            29
-        ],
-        "application": [
-            29
+            34
         ],
         "cryptography": [
-            29
+            34
         ],
         "material": [
-            29
-        ],
-        "optimization": [
-            29
+            34
         ]
     }
 }

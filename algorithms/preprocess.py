@@ -4,6 +4,7 @@ created by: yashar zavary rezaie
 import os
 from langdetect import detect
 from algorithms.fileManager import FileManager
+from pypdf import PdfReader
 
 class Preprocess:
     def __init__(self, specific_location: str = None) -> None:
@@ -66,7 +67,8 @@ class Preprocess:
             for file in files:  # for each file in eac location
                 i += step
                 callback(i)  # update process bar in ui
-                if file.endswith('.txt'):  # add it to the all files list if the file is txt file.
+                if (file.endswith('.txt') or
+                        file.endswith('.pdf')):  # add it to the all files list if the file is txt or pdf file.
                     file_path = os.path.join(root, file)
                     all_files.append(file_path)
         return all_files
@@ -98,11 +100,22 @@ class Preprocess:
         :return: if detecting complete, language, if not empty string(False)
         """
         try:
-            with open(file_address, 'r') as file:
+            if file_address[-4:] == '.pdf':
+                reader = PdfReader(file_address) # read pdf file with pdf reader library
+                text = ''
+                for i in range(len(reader.pages)):
+                    text += reader.pages[i].extract_text()
+                    text += '\n'
+            elif file_address[-4:] == '.txt':
+                # read txt files
+                with open(file_address, 'r') as file:
                     text = file.read().strip()
-                    if not text: return ''  # if file empty, return False
-                    # try to detect text of the file and return related result.
-                    return detect(text)
-        except: return ''
+
+            if not text: return ''  # if file empty, return False
+            # try to detect text of the file and return related result.
+            return detect(text)
+        except:
+            print('problem occure in file read and lang detect of preprocess.')
+            return ''
 
 

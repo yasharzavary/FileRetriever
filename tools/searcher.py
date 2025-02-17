@@ -81,9 +81,6 @@ class Search:
                     i+=2
             except: break
 
-        print('token finish')
-        print(self.squence)
-        print(self.file_list)
         if len(self.squence) == 0: return False  # if squence empty, return file not found.
         while len(self.squence) != 1:
 
@@ -101,7 +98,6 @@ class Search:
                 self.file_list.insert(0,temp)
                 self.squence.insert(0,'H')
 
-        print('loop done')
         results = dict()
         for doc_num in self.file_list[0]:
             doc_add = self.__raw_files[f"{doc_num}"]
