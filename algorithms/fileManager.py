@@ -1,6 +1,7 @@
 import spacy
 import json
 from pypdf import PdfReader
+import docx2txt
 
 class FileManager:
     nlp = spacy.load('en_core_web_sm')
@@ -13,8 +14,10 @@ class FileManager:
 
     def read_file(self, address: str) -> str:
         try:  # if something happen in the process, report and continue to process
+            if address[-5:] == '.docx':
+                text = docx2txt.process("demo.docx")
             if address[-4:] == '.pdf':
-                reader = PdfReader(address)  # read pdf file with pdf reader library
+                reader = PdfReader(address) # read pdf file with pdf reader library
                 text = ''
                 for i in range(len(reader.pages)):
                     text += reader.pages[i].extract_text()

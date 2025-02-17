@@ -5,6 +5,7 @@ import os
 from langdetect import detect
 from algorithms.fileManager import FileManager
 from pypdf import PdfReader
+import docx2txt
 
 class Preprocess:
     def __init__(self, specific_location: str = None) -> None:
@@ -68,7 +69,8 @@ class Preprocess:
                 i += step
                 callback(i)  # update process bar in ui
                 if (file.endswith('.txt') or
-                        file.endswith('.pdf')):  # add it to the all files list if the file is txt or pdf file.
+                        file.endswith('.pdf') or
+                        file.endswith('.docx')):  # add it to the all files list if the file is valid format.
                     file_path = os.path.join(root, file)
                     all_files.append(file_path)
         return all_files
@@ -100,6 +102,8 @@ class Preprocess:
         :return: if detecting complete, language, if not empty string(False)
         """
         try:
+            if file_address[-5:] == '.docx':
+                text = docx2txt.process("demo.docx")
             if file_address[-4:] == '.pdf':
                 reader = PdfReader(file_address) # read pdf file with pdf reader library
                 text = ''
