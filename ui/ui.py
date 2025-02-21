@@ -14,6 +14,7 @@ from algorithms.preprocess import Preprocess  # Ensure preprocess_module.py is i
 import os
 import sys
 import subprocess
+from pathlib import Path
 
 # Import searcher
 from tools.searcher import Search
@@ -106,6 +107,7 @@ class SearchEngineUI(QWidget):
         # Flag to track preprocessing
         self.preprocess_done = False
         self.readBinaryDict = True
+        self.running = False
 
 
         # Show preprocessing confirmation AFTER the window appears
@@ -183,6 +185,7 @@ class SearchEngineUI(QWidget):
 
     def start_preprocessing(self, directory):
         """Start preprocessing and ensure only one thread runs at a time"""
+        self.running = True
         self.progress_bar.setValue(0)
         self.update_label.setText("Counting files...")
         self.thread = PreprocessThread(directory, "count")  # First phase: Count files
@@ -190,6 +193,8 @@ class SearchEngineUI(QWidget):
         self.thread.finished.connect(lambda: self.next_phase("read", directory))  # Start next phase when done
         self.thread.start()
         self.preprocess_done = True
+        self.running = False
+        
 
     def next_phase(self, phase, directory):
         """
@@ -271,9 +276,15 @@ class SearchEngineUI(QWidget):
         if not self.preprocess_done:
             self.ask_preprocessing()  # Ask again if preprocessing is not started
             return
+        elif not Path('data/binary_dict.json').is_file():
+            self.show_error('preprocess doesn\'t done yet...please wait.')
+            return
         elif self.readBinaryDict:
             # read binary dict if it doesn't
-            searcher.readBinaryDict()
+            try:
+                searcher.readBinaryDict()
+            except:
+                self.show_error('unknown error happend...please redo preprocess.')
             self.readBinaryDict = False
 
         self.clear_results()  # clear result of the results bar

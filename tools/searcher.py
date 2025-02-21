@@ -2,6 +2,7 @@
 import json
 from algorithms.fileManager import FileManager
 import re
+from pathlib import Path
 
 class Search:
     def __init__(self):
@@ -9,9 +10,14 @@ class Search:
 
 
     def readBinaryDict(self):
-        with open('data/binary_dict.json') as file:
-            self.__binaryDict = json.load(file)
-
+        if not Path('data/binary_dict.json').is_file():
+            self.__binaryDict = {
+                'files': dict(),
+                'tokens':dict()
+            }
+        else:
+            with open('data/binary_dict.json') as file:
+                self.__binaryDict = json.load(file)
 
         self.__raw_files = self.__binaryDict['files']
         self.__tokens = self.__binaryDict['tokens']
