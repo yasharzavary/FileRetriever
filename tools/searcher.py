@@ -10,6 +10,10 @@ class Search:
 
 
     def readBinaryDict(self):
+        """
+            read binary dict(that have data of preprocessing)
+        :return:
+        """
         if not Path('data/binary_dict.json').is_file():
             self.__binaryDict = {
                 'files': dict(),
@@ -26,6 +30,13 @@ class Search:
 
 
     def __add(self, word, add:bool = False, notToken:bool = False):
+        """
+            add new token for analyzing and finding.
+        :param word:
+        :param add:
+        :param notToken:
+        :return:
+        """
         temp = {int(x) for x in self.__files}
         if add:
             self.squence.append(word)

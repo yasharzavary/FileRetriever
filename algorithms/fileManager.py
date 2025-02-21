@@ -13,6 +13,11 @@ class FileManager:
         self.__counter = 0
 
     def read_file(self, address: str) -> str:
+        """
+            file reading manager.
+        :param address:    address that user it is in location user selected.
+        :return:
+        """
         try:  # if something happen in the process, report and continue to process
             if address[-5:] == '.docx':
                 text = docx2txt.process("demo.docx")

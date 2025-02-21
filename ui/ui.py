@@ -113,9 +113,6 @@ class SearchEngineUI(QWidget):
         # Show preprocessing confirmation AFTER the window appears
         QTimer.singleShot(500, self.ask_preprocessing)  # Delay to show after UI loads
 
-    def onMyToolBarButtonClick(self):
-        print('hello')
-
     def ask_preprocessing(self):
         """
             program must to preprocess before search.
@@ -165,6 +162,11 @@ class SearchEngineUI(QWidget):
                     break
 
     def show_error(self, message):
+        """
+            show releated errors in different situations of the process
+        :param message: message that we want to show to user
+        :return:
+        """
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Critical)
         msg.setWindowTitle("warning")
@@ -173,6 +175,10 @@ class SearchEngineUI(QWidget):
         msg.exec()  # Show the message box
 
     def select_directory(self):
+        """
+            if user want one another location(not whole computer), it can use this.
+        :return:
+        """
         directory = QFileDialog.getExistingDirectory(self, "Select Directory for Preprocessing")
         if directory:  # If user selected a directory
             self.start_preprocessing(directory)
@@ -187,7 +193,11 @@ class SearchEngineUI(QWidget):
         return True
 
     def start_preprocessing(self, directory):
-        """Start preprocessing and ensure only one thread runs at a time"""
+        """
+            start preprocessing and control it flow.
+        :param directory: directory that user choose
+        :return:
+        """
         self.running = True
         self.progress_bar.setValue(0)
         self.update_label.setText("Counting files...")
@@ -232,9 +242,18 @@ class SearchEngineUI(QWidget):
 
 
     def update_progress(self, value):
+        """
+            update progress bar.
+        :param value: value that we want to set the bar.
+        :return:
+        """
         self.progress_bar.setValue(value)
 
     def clear_results(self):
+        """
+            if we have some results in the result part, clear it first.
+        :return:
+        """
         # Clear previous results
         for i in reversed(range(self.results_layout.count())):
             widget = self.results_layout.itemAt(i).widget()
@@ -242,6 +261,11 @@ class SearchEngineUI(QWidget):
                 widget.deleteLater()  # Remove old results
 
     def display_search_results(self, results: dict):
+        """
+            search and show the results to the user.
+        :param results:
+        :return:
+        """
         self.clear_results()  # Clear previous results
 
         for file_name, file_path in results.items():  # Assume results contain (file name, file path) pairs
