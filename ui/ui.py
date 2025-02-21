@@ -121,6 +121,9 @@ class SearchEngineUI(QWidget):
             program must to preprocess before search.
         :return:
         """
+        if self.running:
+            self.show_error('preprocessing is already running')
+            return
         msg = QMessageBox()
         msg.setWindowTitle("Preprocessing Required")
         msg.setText("The preprocess will start to analyze. Do you want to continue?")
@@ -193,8 +196,7 @@ class SearchEngineUI(QWidget):
         self.thread.finished.connect(lambda: self.next_phase("read", directory))  # Start next phase when done
         self.thread.start()
         self.preprocess_done = True
-        self.running = False
-        
+
 
     def next_phase(self, phase, directory):
         """
@@ -226,6 +228,7 @@ class SearchEngineUI(QWidget):
             self.thread.start()
         elif phase == "done":
             self.update_label.setText("Preprocessing Complete ✅ Enjoy Files")
+            self.running = False
 
 
     def update_progress(self, value):
